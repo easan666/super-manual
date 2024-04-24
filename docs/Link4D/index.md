@@ -18,6 +18,7 @@ Link4D 是Windows系统和C4D交互的插件，支持**六大主流渲染器**�
 
 - 支持版本：`Cinema 4D R23~2024`，只支持Windows系统
 - 支持`Redshift` / `Octane` / `Arnold` / `V-Ray` / `Corona` / `Standard` / `Physical`
+- 插件下载地址（付费）：https://cgexe.com/57511/
 - 插件首次使用需要登录后`重启C4D`：[登录说明](01-link4d-setting)
 - 首次使用右键`Send PBR to C4D`需要先双击运行插件文件夹的`add_添加菜单.bat`文件
 
@@ -26,6 +27,16 @@ Link4D 是Windows系统和C4D交互的插件，支持**六大主流渲染器**�
 
 ## 功能介绍
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+
+
+<br />
+
+## 视频教程
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=1703604989&bvid=BV1VT421172S&cid=1518250197&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
 
 <br />
