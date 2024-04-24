@@ -192,6 +192,19 @@ export default defineConfig({
         },
         { text: '可动程序CGexe', link: '/' },
       ],
+      '/Link4D/': [
+        {
+          text: 'Link4D',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/Link4D/' },
+            { text: '插件设置', link: '/Link4D/01-link4d-setting' },
+            { text: 'Send To C4D', link: '/Link4D/02-0_link4d-send_to_c4d' },
+            { text: 'Call C4D', link: '/Link4D/03-link4d-call_c4d' },
+          ]
+        },
+        { text: '可动程序CGexe', link: '/' },
+      ],
       '/guide/': [
         {
           text: 'guide',
