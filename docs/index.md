@@ -20,32 +20,32 @@ hero:
 features:
   - icon: 
       src: ./img/link4d-call_c4d_300.webp
-    title: Link4D
+    title: Link4D v1.1.0
     details: 右键批量发送PBR贴图到C4D生成材质，支持六大主流渲染器，实时获取Windows资源管理器所选文件……
     link: /Link4D/
   - icon: 
       src: ./img/RS-NodeTool-200.webp
-    title: RS-NodeTool 2.4
+    title: RS-NodeTool v2.5.0
     details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeTool/
   - icon:
       src: ./img/RS-NodeSG.webp
-    title: RS-NodeSG 2.0
+    title: RS-NodeSG v2.2.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeSG/
   - icon:
       src: ./img/AR-AutoNode-2-200.webp
-    title: AR-AutoNode 2.0
+    title: AR-AutoNode v2.1.0
     details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /AR-AutoNode/
   - icon:
       src: ./img/VR-AutoNodev2-200.webp
-    title: VR-AutoNode 2.0
+    title: VR-AutoNode v2.1.0
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
   - icon: 
       src: ./img/OC-MatTool-200.webp
-    title: OC-MatTool 1.3
+    title: OC-MatTool v1.4.0
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
   - icon:
@@ -55,12 +55,12 @@ features:
     link: /CR-MatTool/
   - icon:
       src: ./img/AutoSort-200.webp
-    title: AutoSort
+    title: AutoSort v1.2.0
     details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
     link: /AutoSort/
   - icon:
       src: ./img/88-Menu-200.webp
-    title: 88-Menu
+    title: 88-Menu v1.1.0
     details: 可以自定义8个弹出菜单……
     link: https://cgexe.com/56797/
   - icon:

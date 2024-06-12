@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../VR-AutoNode-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/VR-AutoPBR.webp" alt="Custom Icon"></span>VR-AutoNode v2.0
+# <span class="h1-icon"><img src="/img/VR-AutoPBR.webp" alt="Custom Icon"></span>VR-AutoNode v2.1.0
 ## 说明
 VR-AutoNode是V-Ray的节点辅助工具，可以自动连接PBR贴图，自动批量添加置换贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动切换颜色模式（Linear/ACES），等等……
 <br />
@@ -29,7 +29,15 @@ VR-AutoNode是V-Ray的节点辅助工具，可以自动连接PBR贴图，自动�
 
 ## 更新说明
 
-::: info VR-AutoNode v2.0 <Badge type="danger" text="更新11+" />
+::: info VR-AutoNode v2.1.0 <Badge type="danger" text="更新4+" />
+1. 优化关键词配置文件
+2. 自动PBR修复跳过没有关键词的贴图,避免没反应的错误导向
+3. 优化登录验证逻辑
+4. 添加版本管理文件
+
+:::
+
+::: details VR-AutoNode v2.0<Badge type="info" text="更新11" />
 1. 对插件核心逻辑进行重构，优化了插件的性能和兼容性
 2. 新增自定义菜单功能，支持自定义添加常用节点和命令
 3. 重新优化自动PBR的连接逻辑

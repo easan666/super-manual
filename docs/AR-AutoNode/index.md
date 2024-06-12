@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AR-AutoNode-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AR-AutoPBR.webp" alt="Custom Icon"></span>AR-AutoNode v2.0
+# <span class="h1-icon"><img src="/img/AR-AutoPBR.webp" alt="Custom Icon"></span>AR-AutoNode v2.1.0
 ## 说明
 AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Material）和legacy节点（Arnold Material/legacy），可以自动连接PBR贴图，自动插入节点，自动连接指定通道，自动添加UV控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，等等……
 <br />
@@ -29,7 +29,15 @@ AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Materi
 
 ## 更新说明
 
-::: info AR-AutoNode v2.0.0 <Badge type="danger" text="更新15+" />
+::: info AR-AutoNode v2.1.0 <Badge type="danger" text="更新4+" />
+1. 优化关键词配置文件
+2. 自动PBR修复跳过没有关键词的贴图,避免没反应的错误导向
+3. 优化登录验证逻辑
+4. 添加版本管理文件
+
+:::
+
+::: details AR-AutoNode v2.0.0<Badge type="info" text="更新15" />
 1. 重写插件，对插件核心逻辑进行重构，优化了插件的性能和兼容性
 2. 由于Arnold的api不稳定，所以采用C4D官方的api
 3. 重新优化[自动PBR](02-AAN-AutoPBR)的连接逻辑
@@ -45,7 +53,6 @@ AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Materi
 13. 对所有节点进行了自动化的处理，计算和混合节点支持自动连接
 14. 混合节点连接的优化，layer_rgba、mix_rgba、layer_shader、switch_shader等节点可以自动连接
 15. 新增[TP PBR](04-AAN-To_PBR)弹出菜单
-
 :::
 
 ::: details AR-AutoNode 1.04<Badge type="info" text="更新1" />

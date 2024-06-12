@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../Link4D-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/link4d-call_c4d.webp" alt="Custom Icon"></span>Link4D v1.0
+# <span class="h1-icon"><img src="/img/link4d-call_c4d.webp" alt="Custom Icon"></span>Link4D v1.1.0
 
 ## 说明
 Link4D 是Windows系统和C4D交互的插件，支持**六大主流渲染器**。  
@@ -68,11 +68,16 @@ Link4D 是Windows系统和C4D交互的插件，支持**六大主流渲染器**�
 
 ## 更新说明
 
+::: details Link4D v1.1.0<Badge type="info" text="更新2+" />
+1. 添加版本管理文件
+2. 优化登录验证逻辑
+
+:::
+
 ::: details Link4D v1.0.0<Badge type="info" text="发布" />
 1. Link4D_v1.0发布
 
 :::
-
 
 <br />
 <br />

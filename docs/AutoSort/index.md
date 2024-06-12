@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AutoSort-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.1
+# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.2.0
 
 ## 说明
 AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
@@ -60,7 +60,13 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.1.0<Badge type="danger" text="更新8+" />
+::: info AutoSort v1.2.0<Badge type="danger" text="更新8+" />
+1. 添加版本管理文件
+2. 优化登录验证逻辑
+
+:::
+
+::: info AutoSort v1.1.0<Badge type="info" text="更新8" />
 1. 优化查找和分类的逻辑
 2. 优化移动的排序，分类之后保持原来的排序
 3. 优化同名组的设置逻辑

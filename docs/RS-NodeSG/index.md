@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../RS-NodeSG-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/RS-NodeSG.webp" alt="Custom Icon"></span>RS-NodeSG v2.0
+# <span class="h1-icon"><img src="/img/RS-NodeSG.webp" alt="Custom Icon"></span>RS-NodeSG v2.2.0
 ## 说明
 RS-NodeSG是Redshift的<span class="gb-text">Shader Graph（旧版节点）</span>辅助工具，可以自动连接PBR贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动添加PuzzleMatte等等……
 <br />
@@ -31,7 +31,15 @@ RS-NodeSG是Redshift的<span class="gb-text">Shader Graph（旧版节点）</spa
 
 ## 更新说明
 
-::: info RS-NodeSG v2.0<Badge type="danger" text="更新16+" />
+::: info RS-NodeSG v2.2.0<Badge type="danger" text="更新4+" />
+1. 优化关键词配置文件
+2. 自动PBR修复跳过没有关键词的贴图,避免没反应的错误导向
+3. 优化登录验证逻辑
+4. 添加版本管理文件
+
+:::
+
+::: details RS-NodeSG v2.0 <Badge type="info" text="更新16" />
 1. 对插件核心逻辑进行重构，优化了插件的性能和兼容性
 2. 优化插件的设置方式，可以在设置面板中直接修改插件的设置
 3. 重写AutoPBR（自动PBR）的[连接逻辑](02-RSG-AutoPBR#连接逻辑)
