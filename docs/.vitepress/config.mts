@@ -192,6 +192,18 @@ export default defineConfig({
         },
         { text: '可动程序CGexe', link: '/' },
       ],
+      '/GetColor/': [
+        {
+          text: 'GetColor',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/GetColor/' },
+            { text: '插件设置', link: '/GetColor/01-GetColor-setting' },
+            { text: 'GetColor使用', link: '/GetColor/02-GetColor-use' },
+          ]
+        },
+        { text: '可动程序CGexe', link: '/' },
+      ],
       '/Link4D/': [
         {
           text: 'Link4D',

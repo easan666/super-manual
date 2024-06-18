@@ -11,13 +11,18 @@ hero:
     alt: cgexe
   actions:
     - theme: brand
-      text: 点击查看文档
-      link: /RS-NodeTool/
+      text: 下载可动盒子
+      link: https://cgexe.com/cgexebox/
     - theme: alt
-      text: 插件介绍
-      link: /RS-NodeTool/#功能介绍
+      text: 视频介绍
+      link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon: 
+      src: ./img/GetColor-200.webp
+    title: GetColor v1.0.0
+    details: 根据截图生成材质，也可以复制色号生成材质，支持六大主流渲染器……
+    link: /GetColor/
   - icon: 
       src: ./img/link4d-call_c4d_300.webp
     title: Link4D v1.1.0
