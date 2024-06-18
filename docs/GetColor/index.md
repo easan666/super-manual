@@ -28,6 +28,16 @@ GetColor可以根据剪切板数据生成材质，支持复制颜色代码生成
 
 <br />
 
+## 视频教程
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=1255854226&bvid=BV1bJ4m1u7JX&cid=1587107811&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+
+<br />
+
 ## 相关问题
 
 
@@ -44,14 +54,7 @@ GetColor可以根据剪切板数据生成材质，支持复制颜色代码生成
 3. 使用管理员账户登录Windows系统
 :::
 
-<br />
 
-<!-- ## 视频教程
-<br />
-
-<div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=1851967804&bvid=BV1tp421U7vL&cid=1471471115&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</div> -->
 
 
 <br />
