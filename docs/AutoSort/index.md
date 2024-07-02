@@ -60,10 +60,15 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.2.0<Badge type="danger" text="更新8+" />
+::: info AutoSort v1.3.0<Badge type="danger" text="更新2+" />
+1. 新增Axis To Bottom（轴心置底），可将所选对象的轴心置于底部中心
+2. 新增Select Solo（所选独显），单击可将所选对象独显, 类似Magic Solo，因为Magic Solo对于有父级的对象会失效，所以重写了一个
+
+:::
+
+::: info AutoSort v1.2.0<Badge type="info" text="更新2" />
 1. 添加版本管理文件
 2. 优化登录验证逻辑
-
 :::
 
 ::: info AutoSort v1.1.0<Badge type="info" text="更新8" />
