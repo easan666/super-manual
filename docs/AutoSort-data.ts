@@ -24,8 +24,20 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '../../img/Group_Solo.webp',
         title: 'GroupSolo（同组独显）',
-        desc: '在同一组中独显所选对象',
+        desc: '在同一组中独显所选对象(灯光独显)',
         link: './03-AutoSort-groupsolo',
+      },
+      {
+        icon: '../../img/SelectSolo.webp',
+        title: 'SelectSolo（所选独显）',
+        desc: '独显所选对象，Magic Solo的优化版',
+        link: './04-AutoSort-selectsolo',
+      },
+      {
+        icon: '../../img/AxisToBottom.webp',
+        title: 'Axis To Bottom（轴心置底）',
+        desc: '可将所选对象的轴心置于底部中心',
+        link: './05-AutoSort-axistobottom',
       },
     ],
   },

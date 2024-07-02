@@ -187,6 +187,8 @@ export default defineConfig({
             { text: '插件设置', link: '/AutoSort/01-AutoSort-setting' },
             { text: 'AutoSort（一键整理）', link: '/AutoSort/02-AutoSort-document' },
             { text: 'GroupSolo（同组独显）', link: '/AutoSort/03-AutoSort-groupsolo' },
+            { text: 'SelectSolo（所选独显）', link: '/AutoSort/04-AutoSort-selectsolo' },
+            { text: 'Axis To Bottom（轴心置底）', link: '/AutoSort/05-AutoSort-axistobottom' },
 
           ]
         },
