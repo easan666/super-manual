@@ -30,6 +30,12 @@ layout: doc
 <br />
 
 ### 文件夹/列表模式
+
+::: danger 注意
+由于C4D 2024.4相关api的变更，无法正常切换到列表模式，AutoNode（自动节点）可能不再维护。
+请使用RS-NodeMenu（节点菜单）替代。
+:::
+
 - 此处是用于AutoNode（自动节点）的显示模式
 - 列表模式和文件夹模式：
 <div class="img-to" >
