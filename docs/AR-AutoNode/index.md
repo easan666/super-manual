@@ -29,12 +29,17 @@ AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Materi
 
 ## 更新说明
 
-::: info AR-AutoNode v2.1.0 <Badge type="danger" text="更新4+" />
+::: info AR-AutoNode v2.2.0 <Badge type="danger" text="更新4+" />
+1. 修复To PBR（PBR连接）连接凹凸无反应的bug
+2. 优化NodeMenu（节点菜单），未选择节点会自动创建节点
+3. 修改适配C4D 2024.4相关api
+:::
+
+::: details AR-AutoNode v2.1.0<Badge type="info" text="更新4" />
 1. 优化关键词配置文件
 2. 自动PBR修复跳过没有关键词的贴图,避免没反应的错误导向
 3. 优化登录验证逻辑
 4. 添加版本管理文件
-
 :::
 
 ::: details AR-AutoNode v2.0.0<Badge type="info" text="更新15" />

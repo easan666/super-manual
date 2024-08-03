@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="/img/RS-AutoID.webp" alt="Custom Icon"></span>AutoID（自动ID）
+# <span class="h1-icon"><img src="/img/RS-ObjectID.webp" alt="Custom Icon"></span>Object ID（对象ID）
 
 <br/>
 
@@ -16,23 +16,23 @@ layout: doc
 <br/>
 
 
-### 自动ID使用
+### ObjectID（对象ID）使用
 选中所需对象，然后点击执行
 <br/>
 
 <video controls>
-  <source src="/img/command-auto-id.webm" type="video/webm">
+  <source src="/img/rs_nodetool_command_object_id_1.webm" type="video/webm">
 </video>
 
 <br/>
 <br/>
 
-### 自动PuzzleMatte使用
+### 自动对象PuzzleMatte使用
 选中所需对象，然后配合Ctrl或者Alt点击执行
 <br/>
 
 <video controls>
-  <source src="/img/command-PuzzleMatte-AOV.webm" type="video/webm">
+  <source src="/img/rs_nodetool_command_object_id_2.webm" type="video/webm">
 </video>
 
 <br/>

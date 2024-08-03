@@ -25,12 +25,12 @@ features:
     link: /GetColor/
   - icon: 
       src: ./img/link4d-call_c4d_300.webp
-    title: Link4D v1.1.0
+    title: Link4D v1.2.0
     details: 右键批量发送PBR贴图到C4D生成材质，支持六大主流渲染器，实时获取Windows资源管理器所选文件……
     link: /Link4D/
   - icon: 
       src: ./img/RS-NodeTool-200.webp
-    title: RS-NodeTool v2.5.0
+    title: RS-NodeTool v2.6.0
     details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeTool/
   - icon:
@@ -40,7 +40,7 @@ features:
     link: /RS-NodeSG/
   - icon:
       src: ./img/AR-AutoNode-2-200.webp
-    title: AR-AutoNode v2.1.0
+    title: AR-AutoNode v2.2.0
     details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /AR-AutoNode/
   - icon:
