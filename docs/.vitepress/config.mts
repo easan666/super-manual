@@ -187,7 +187,7 @@ export default defineConfig({
             { text: '简介/更新说明', link: '/AutoSort/' },
             { text: '插件设置', link: '/AutoSort/01-AutoSort-setting' },
             { text: 'AutoSort（一键整理）', link: '/AutoSort/02-AutoSort-document' },
-            { text: 'AutoGroup（一键打组）', link: '/AutoSort/06-Auto Group-document' },
+            { text: 'AutoGroup（一键打组）', link: '/AutoSort/06-AutoGroup-document' },
             { text: 'Name Solo（同名独显）', link: '/AutoSort/07-AutoSort-namesolo' },
             { text: 'GroupSolo（同组独显）', link: '/AutoSort/03-AutoSort-groupsolo' },
             { text: 'SelectSolo（所选独显）', link: '/AutoSort/04-AutoSort-selectsolo' },
