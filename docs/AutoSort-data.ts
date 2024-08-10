@@ -22,6 +22,18 @@ export const NAV_DATA: NavData[] = [
         link: './02-AutoSort-document',
       },
       {
+        icon: '../../img/AutoGroup.webp',
+        title: 'AutoGroup（一键打组）',
+        desc: '一键为所选对象打组',
+        link: './06-AutoGroup-document',
+      },
+      {
+        icon: '../../img/NameSolo.webp',
+        title: 'Name Solo（同名独显）',
+        desc: '根据名称将所选独显（可用于灯光独显）',
+        link: './07-AutoSort-namesolo',
+      },
+      {
         icon: '../../img/Group_Solo.webp',
         title: 'GroupSolo（同组独显）',
         desc: '在同一组中独显所选对象(灯光独显)',

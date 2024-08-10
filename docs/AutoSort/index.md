@@ -8,10 +8,10 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AutoSort-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.3.0
+# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.4.0
 
 ## 说明
-AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同组独显所选（灯光独显），独显所选对象，支持自定义类型、颜色、正则关键词等等……
+AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同名独显（灯光独显），同组独显所选（灯光独显），独显所选对象，支持自定义类型、颜色、正则关键词等等……
 <br />
 <br />
 - 支持版本：`Cinema 4D R23~2024`
@@ -35,7 +35,7 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ::: details 更新插件怎么保留之前的设置？
 更新/移动插件之前可以先备份配置文件，然后在其他电脑上覆盖配置文件，这样就不需要再设置一遍了。
-配置文件位置：在插件文件夹的 `res`文件夹下，文件名是`ObjectType.json`
+配置文件位置：在插件文件夹的 `res`文件夹下，文件名是`ObjectType.json`和`ExtraSettings.json`
 :::
 
 ::: details 无法保存插件设置？
@@ -60,18 +60,25 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.3.0<Badge type="danger" text="更新2+" />
+::: info AutoSort v1.3.0<Badge type="danger" text="更新3+" />
+1. 新增Name Solo（同名独显），根据名称过滤相关对象，单击可将所选独显（可用于灯光独显）
+2. 新增Auto Group（一键打组），可以根据设置自动为所选对象打组，类似一键整理，区别就是不会添加层
+3. 修复Select Solo（所选独显）使用时摄像机锁定的bug
+
+:::
+
+::: details AutoSort v1.3.0<Badge type="info" text="更新2" />
 1. 新增Axis To Bottom（轴心置底），可将所选对象的轴心置于底部中心
 2. 新增Select Solo（所选独显），单击可将所选对象独显, 类似Magic Solo，因为Magic Solo对于有父级的对象会失效，所以重写了一个
 
 :::
 
-::: info AutoSort v1.2.0<Badge type="info" text="更新2" />
+::: details AutoSort v1.2.0<Badge type="info" text="更新2" />
 1. 添加版本管理文件
 2. 优化登录验证逻辑
 :::
 
-::: info AutoSort v1.1.0<Badge type="info" text="更新8" />
+::: details AutoSort v1.1.0<Badge type="info" text="更新8" />
 1. 优化查找和分类的逻辑
 2. 优化移动的排序，分类之后保持原来的排序
 3. 优化同名组的设置逻辑
@@ -82,7 +89,7 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 8. 新增[隐藏/显示所选](03-AutoSort-groupsolo)
 :::
 
-::: info AutoSort v1.0.1<Badge type="info" text="更新1+" />
+::: details AutoSort v1.0.1<Badge type="info" text="更新1+" />
 1. 修复场景太多模型卡死的问题
 :::
 

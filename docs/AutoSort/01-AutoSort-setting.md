@@ -22,6 +22,18 @@ layout: doc
 <img src="/img/login_verification_screenshot.webp" data-zoomable alt="登录验证" width=60% >
 
 ## 插件设置
+
+<img src="/img/autosort_v1_4_plugin_settings_screenshot.webp" data-zoomable alt="plugin_settings">
+
+<br />
+
+### 同名独显
+用于[**Name Solo（同名独显）**](07-AutoSort-namesolo)，会根据名称过滤对象。示例如：`区域光,穹顶光,天空,Sky`, 用英文逗号`,`分隔；
+
+<br />
+
+### 分类设置
+
 - 插件会根据id和关键词自动归类，支持C4D的类型id，支持C4D的物体id，支持自定义关键词
 - id和关键词使用英文逗号`,`分隔，关键词支持正则
 - 使用关键词`other`会匹配未归类的物体
@@ -84,7 +96,7 @@ C4D中每个物体都有对应的id，可以在控制台获取
 
 ## 备份设置
 如果已经设置好了插件的设置，需要更新/移动插件的话可以备份配置文件，然后在其他电脑上覆盖配置文件，这样就不需要再设置一遍了。  
-配置文件位置：在插件文件夹 > `res`文件夹下，文件名是`ObjectType.json`
+配置文件位置：在插件文件夹 > `res`文件夹下，文件名是`ObjectType.json`和`ExtraSettings.json`
 
 <br />
 

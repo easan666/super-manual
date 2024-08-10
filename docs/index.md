@@ -60,7 +60,7 @@ features:
     link: /CR-MatTool/
   - icon:
       src: ./img/AutoSort-200.webp
-    title: AutoSort v1.3.0
+    title: AutoSort v1.4.0
     details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
     link: /AutoSort/
   - icon:
