@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="/img/SG-To Sprite.webp" alt="Custom Icon"></span>To Sprite（转为Sprite）
+# <span class="h1-icon"><img src="/img/SG-ConvertPath.webp" alt="Custom Icon"></span>To Absolute Path（转为绝对路径）
 
 <br/>
 

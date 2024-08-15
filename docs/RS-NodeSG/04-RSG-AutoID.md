@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="/img/RS-AutoID.webp" alt="Custom Icon"></span>Object ID（对象ID）
+# <span class="h1-icon"><img src="/img/SG-ObjectID.webp" alt="Custom Icon"></span>Object ID（对象ID）
 
 <br/>
 

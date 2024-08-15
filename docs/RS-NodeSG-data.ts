@@ -95,7 +95,7 @@ export const NAV_DATA: NavData[] = [
         link: './03-VAN-CustomMenu-fix_tiling',
       },
       {
-        icon: '../../img/SG-TriPlanar Control.webp',
+        icon: '../../img/SG-ConvertPath.webp',
         title: 'To Absolute Path（转为绝对路径）',
         desc: '可以将所选材质的纹理路径转换为绝对路径',
         link: './11-RSG-to_absolute_path',
