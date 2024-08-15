@@ -18,6 +18,26 @@ hero:
       link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon:
+      src: ./img/RS-NodeSG.webp
+    title: RS-NodeSG v2.3.0
+    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeSG/
+  - icon: 
+      src: ./img/RS-NodeTool-200.webp
+    title: RS-NodeTool v2.6.0
+    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeTool/
+  - icon:
+      src: ./img/AutoSort-200.webp
+    title: AutoSort v1.4.0
+    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
+    link: /AutoSort/
+  - icon:
+      src: ./img/AR-AutoNode-2-200.webp
+    title: AR-AutoNode v2.2.0
+    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /AR-AutoNode/
   - icon: 
       src: ./img/GetColor-200.webp
     title: GetColor v1.0.0
@@ -28,21 +48,6 @@ features:
     title: Link4D v1.2.0
     details: 右键批量发送PBR贴图到C4D生成材质，支持六大主流渲染器，实时获取Windows资源管理器所选文件……
     link: /Link4D/
-  - icon: 
-      src: ./img/RS-NodeTool-200.webp
-    title: RS-NodeTool v2.6.0
-    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /RS-NodeTool/
-  - icon:
-      src: ./img/RS-NodeSG.webp
-    title: RS-NodeSG v2.2.0
-    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /RS-NodeSG/
-  - icon:
-      src: ./img/AR-AutoNode-2-200.webp
-    title: AR-AutoNode v2.2.0
-    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /AR-AutoNode/
   - icon:
       src: ./img/VR-AutoNodev2-200.webp
     title: VR-AutoNode v2.1.0
@@ -58,11 +63,7 @@ features:
     title: CR-AutoPBR 1.0
     details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
     link: /CR-MatTool/
-  - icon:
-      src: ./img/AutoSort-200.webp
-    title: AutoSort v1.4.0
-    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
-    link: /AutoSort/
+
   - icon:
       src: ./img/88-Menu-200.webp
     title: 88-Menu v1.1.0

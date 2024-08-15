@@ -69,13 +69,15 @@ export default defineConfig({
                 { text: '排列节点', link: '/RS-NodeSG/03-VAN-CustomMenu-arrange_nodes' },
               ]
             },
-            { text: 'AutoID（自动ID）', link: '/RS-NodeSG/04-RSG-AutoID' },
+            { text: 'Object ID（对象ID）', link: '/RS-NodeSG/04-RSG-AutoID' },
+            { text: 'Material ID（材质ID）', link: '/RS-NodeSG/04-RSG-MatID' },
             { text: 'To PBR（PBR连接）', link: '/RS-NodeSG/05-RSG-To_PBR' },
             { text: 'Set TriPlanar（处理平铺）', link: '/RS-NodeSG/06-RSG-TriPlanar' },
             { text: 'UV PSR（添加PSR控制）', link: '/RS-NodeSG/07-RSG-UV_PSR' },
             { text: 'Set UDIM（设置UDIM）', link: '/RS-NodeSG/08-RSG-Set_UDIM' },
             { text: 'Color Space（设置颜色空间）', link: '/RS-NodeSG/09-RSG-Color_Space' },
             { text: 'To Sprite（转为Sprite）', link: '/RS-NodeSG/10-RSG-To_Sprite' },
+            { text: 'To Absolute Path（转为绝对路径）', link: '/RS-NodeSG/11-RSG-to_absolute_path' },
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },

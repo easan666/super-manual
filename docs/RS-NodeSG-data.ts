@@ -28,17 +28,24 @@ export const NAV_DATA: NavData[] = [
         link: './03-RSG-NodeMenu-setting',
       },
       {
-        icon: '../../img/RS-AutoID.webp',
-        title: 'AutoID（自动ID）',
-        desc: '为所选对象自动设置Object ID / PuzzleMatte AOV',
-        link: './04-RSG-AutoID',
-      },
-      {
         icon: '../../img/SG-To PBR.webp',
         title: 'To PBR（PBR连接）',
         desc: '自动连接到指定PBR端口(自动混合多节点)',
         link: './05-RSG-To_PBR',
       },
+      {
+        icon: '../../img/SG-ObjectID.webp',
+        title: 'ObjectID（对象ID）',
+        desc: '为所选对象自动设置Object ID / PuzzleMatte AOV',
+        link: './04-RSG-AutoID',
+      },
+      {
+        icon: '../../img/SG-MatID.webp',
+        title: 'Material ID（材质ID）',
+        desc: '为所选材质自动设置Material ID / PuzzleMatte AOV',
+        link: './04-RSG-MatID',
+      },
+
       {
         icon: '../../img/SG-TriPlanar Control.webp',
         title: 'Set TriPlanar（处理平铺）',
@@ -86,6 +93,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Fix Tiling（处理平铺）',
         desc: '处理贴图重复和平铺',
         link: './03-VAN-CustomMenu-fix_tiling',
+      },
+      {
+        icon: '../../img/SG-TriPlanar Control.webp',
+        title: 'To Absolute Path（转为绝对路径）',
+        desc: '可以将所选材质的纹理路径转换为绝对路径',
+        link: './11-RSG-to_absolute_path',
       },
     ],
   },

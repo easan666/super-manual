@@ -25,7 +25,7 @@ layout: doc
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/rs-nodesg-2-setting-info.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/rs-nodesg-2-3-_plugin_settings_screenshot.webp" alt="插件设置" width=50%>
 
 
 <br />
@@ -123,6 +123,13 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 <br />
 
 ---
+<br />
+<br />
+
+
+### 检索文件夹路径
+用于[To Absolute Path（转为绝对路径）](11-RSG-to_absolute_path)，会检索贴图是否存在于当前文件夹下，如果存在将替换为绝对路径
+
 
 <br />
 
