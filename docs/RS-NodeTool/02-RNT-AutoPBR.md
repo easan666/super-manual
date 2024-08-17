@@ -53,6 +53,9 @@ layout: doc
 
 - 可以在插件设置[**自定义关键词**](01-RNT-setting#自定义通道关键词)，设置完成后需点击`确定`。  
 - 关键词支持[**正则**](01-RNT-setting#正则使用)，可以根据需要添加
+- 关键词可以根据需要增删，不区分大小写，是用逗号分隔，`,`是英文的逗号
+- 如果不是需要，请不要保留空格
+- 设置完成后需点击`确定`
 - 支持的通道有`Diffuse`，`AO`，`Metalness`，`Roughness`，`Reflection`，`Glossiness`，`Bump`，`Normal`，`Opacity`，`Displacement`，`Emission`，`Translucency`
 
 <br />

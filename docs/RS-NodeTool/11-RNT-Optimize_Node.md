@@ -14,7 +14,7 @@ layout: doc
 - 选中所需节点，然后执行即可
 - 如果配合`Ctrl`或者`Alt`，可以自动设置全部节点
 
-> 也可以在AutoNode（自动节点）[使用该命令](03-RNT-AutoNode)
+
 
 <br/>
 

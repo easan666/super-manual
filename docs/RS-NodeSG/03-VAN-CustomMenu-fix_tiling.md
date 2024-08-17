@@ -20,6 +20,10 @@ layout: doc
 
 <br />
 
+- 在插件设置中的自定义弹出菜单添加对应id就可以在[RS-NodeMenu（节点菜单）](03-RSG-NodeMenu-setting)显示，插件自定义id： `set_tiling`
+
+<br />
+
 > 3.0.45开心版没有Distorter节点，所以无法使用此功能
 
 <br />
