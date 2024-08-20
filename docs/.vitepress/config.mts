@@ -211,6 +211,25 @@ export default defineConfig({
         },
         { text: '可动程序CGexe', link: '/' },
       ],
+      '/KeyTool/': [
+        {
+          text: 'KeyTool',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/KeyTool/' },
+            { text: '登录说明', link: '/KeyTool/01-kt-license' },
+            { text: '关键帧偏移', link: '/KeyTool/02-kt-keyframe_offset' },
+            { text: '拆分P/R', link: '/KeyTool/03-kt-split_p_r' },
+            { text: '曲线生成', link: '/KeyTool/04-kt-generate_spline' },
+            { text: '曲线对齐', link: '/KeyTool/05-kt-add_alignment_curve' },
+            { text: '删除无用帧', link: '/KeyTool/06-kt-delete_unused_frames' },
+            { text: '删除全部帧', link: '/KeyTool/07-kt-delete_all_frames' },
+            { text: '添加时间', link: '/KeyTool/08-kt-time_track' },
+            { text: '添加声音', link: '/KeyTool/09-kt-sound_track' },
+          ]
+        },
+        { text: '可动程序CGexe', link: '/' },
+      ],
       '/Link4D/': [
         {
           text: 'Link4D',

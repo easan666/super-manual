@@ -19,6 +19,11 @@ hero:
 
 features:
   - icon:
+      src: ./img/KeyTool.webp
+    title: KeyTool v1.0.0
+    details: 关键帧工具，多类型帧偏移，分离位置和旋转动画，删除无用/全部帧，自动生成位置曲线，自动对齐曲线，自动添加声音/时间轨道……
+    link: /KeyTool/
+  - icon:
       src: ./img/RS-NodeSG.webp
     title: RS-NodeSG v2.3.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
