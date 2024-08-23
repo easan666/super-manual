@@ -18,6 +18,11 @@ hero:
       link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon: 
+      src: ./img/OC-MatTool-200.webp
+    title: OC-MatTool v1.5.0
+    details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
+    link: /OC-MatTool/
   - icon:
       src: ./img/KeyTool.webp
     title: KeyTool v1.0.0
@@ -58,11 +63,6 @@ features:
     title: VR-AutoNode v2.1.0
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
-  - icon: 
-      src: ./img/OC-MatTool-200.webp
-    title: OC-MatTool v1.4.0
-    details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
-    link: /OC-MatTool/
   - icon:
       src: ./img/CR-AutoPBR-200.webp
     title: CR-AutoPBR 1.0

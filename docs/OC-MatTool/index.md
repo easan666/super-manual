@@ -28,12 +28,19 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 ## 更新说明
 
-::: info OC-MatTool v1.4.0<Badge type="danger" text="更新2+" />
+::: info OC-MatTool v1.5.0<Badge type="danger" text="更新5+" />
+1. 新增AutoMask（自动蒙版），可以为所选对象自动设置ID，自动添加Layer Id AOV / Layer Mask
+2. 修复AutoID（自动ID）选择父子级无法添加的bug
+3. 修复AutoID（自动ID）撤回可能导致C4D无响应的bug
+3. 修复AutoPBR（自动PBR）相对路径导致置换无法连接的bug
+4. 取消置换自动添加调节节点
+:::
+
+::: details OC-MatTool v1.4.0<Badge type="info" text="更新4" />
 1. 优化关键词配置文件
 2. 自动PBR修复跳过没有关键词的贴图,避免没反应的错误导向
 3. 优化登录验证逻辑
 4. 添加版本管理文件
-
 :::
 
 ::: details OC-MatTool v1.3<Badge type="info" text="更新2" />
@@ -98,7 +105,7 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 <br />
 <br />
 
-## ☠使用注意
+<!-- ## ☠使用注意
 由于Octane并没有开放节点的api，所以插件并不是对Octane节点的控制，而是对材质的设置。  
 这样就有一些局限性，也无法对节点进行一些精细化的操作  
 > 节点连接之后会重叠，需要手动整理。
@@ -107,5 +114,5 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 <video controls autoplay muted>
   <source src="/img/oc-mattool-autopbr-addadjust-02.webm" type="video/webm">
-</video>
+</video> -->
 

@@ -28,6 +28,12 @@ export const NAV_DATA: NavData[] = [
         link: './03-OMT-AutoID',
       },
       {
+        icon: '../../img/RS-AutoID.webp',
+        title: 'AutoMask（自动蒙版）',
+        desc: '为所选对象自动设置Layer ID / Layer Mask',
+        link: './08-OMT-AutoMask',
+      },
+      {
         icon: '../../img/OC-AddAdjust.webp',
         title: 'Set Adjust（添加调节节点）',
         desc: '为已连接的纹理节点添加调节节点',

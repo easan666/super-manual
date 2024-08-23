@@ -37,3 +37,19 @@ layout: doc
 
 <br/>
 <br/>
+
+
+### 问题
+
+```
+如果出现重复添加Layer ID的情况，
+请先在Octane Render AOV Manager随意添加一个aov，然后再执行自动设置Layer ID
+```
+<br/>
+
+<video controls>
+  <source src="/img/oc-mattool-auto_id_bug.webm" type="video/webm">
+</video>
+
+<br/>
+<br/>
