@@ -9,7 +9,6 @@ layout: doc
 
 ### 简介
 
-- 为所选对象自动设置ID，自动添加Layer Id AOV / Layer Mask
 - 选中所需对象，然后执行，会自动添加标签，同时设置的Layer ID和Render Layer Mask
 
 <br/>
