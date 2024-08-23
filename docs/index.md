@@ -30,7 +30,7 @@ features:
     link: /KeyTool/
   - icon:
       src: ./img/RS-NodeSG.webp
-    title: RS-NodeSG v2.3.0
+    title: RS-NodeSG v2.4.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeSG/
   - icon: 
