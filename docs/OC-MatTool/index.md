@@ -29,7 +29,7 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 ## 更新说明
 
 ::: info OC-MatTool v1.5.0<Badge type="danger" text="更新5+" />
-1. 新增AutoMask（自动蒙版），可以为所选对象自动设置ID，自动添加Layer Id AOV / Layer Mask
+1. 新增AutoMask（自动蒙版），可以为所选对象自动设置Layer Id，自动添加Layer Mask
 2. 修复AutoID（自动ID）选择父子级无法添加的bug
 3. 修复AutoID（自动ID）撤回可能导致C4D无响应的bug
 3. 修复AutoPBR（自动PBR）相对路径导致置换无法连接的bug
