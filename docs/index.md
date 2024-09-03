@@ -18,6 +18,11 @@ hero:
       link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon:
+      src: ./img/LightHit-200.webp
+    title: LightHit v1.0.0
+    details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
+    link: /LightHit/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool v1.5.0

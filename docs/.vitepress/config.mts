@@ -212,6 +212,19 @@ export default defineConfig({
         },
         { text: '可动程序CGexe', link: '/' },
       ],
+      '/LightHit/': [
+        {
+          text: 'LightHit',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/LightHit/' },
+            { text: '登录说明', link: '/LightHit/01-lighthit-license' },
+            { text: '使用说明', link: '/LightHit/02-lighthit-use' },
+            { text: '插件设置', link: '/LightHit/03-lighthit-setting' },
+          ]
+        },
+        { text: '可动程序CGexe', link: '/' },
+      ],
       '/KeyTool/': [
         {
           text: 'KeyTool',
