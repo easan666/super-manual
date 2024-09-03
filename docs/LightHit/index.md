@@ -11,7 +11,7 @@ import { NAV_DATA } from '../LightHit-data'
 # <span class="h1-icon"><img src="/img/LightHit.webp" alt="Custom Icon"></span>LightHit v1.0.0
 
 ## 说明
-LightHit是C4D打光工具，可以快速便捷地控制灯光位置，支持独显等灯光管理……
+LightHit是C4D打光插件，支持所有渲染器，参考了KeyShot的操作方式，可以快速便捷地控制灯光位置，支持独显等灯光操作……
 <br />
 <br />
 - 支持版本：`Cinema 4D R23~2024`
@@ -28,15 +28,15 @@ LightHit是C4D打光工具，可以快速便捷地控制灯光位置，支持独
 
 <br />
 
-<!-- ## 视频教程
+## 视频教程
 <br />
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=1255854226&bvid=BV1bJ4m1u7JX&cid=1587107811&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=113074358976807&bvid=BV1HyHxesEqj&cid=25725045672&p=1&autoplay=0;"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 
-<br /> -->
+<br />
 
 <br />
 
