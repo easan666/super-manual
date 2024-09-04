@@ -55,9 +55,9 @@ layout: doc
 #### 7 右键菜单
 1. 刷新：刷新重载视图
 2. 复制对象：复制当前所选的灯光
-3. 删除图标：删除编辑视图所选的灯光图标
+3. 删除图标：删除插件面板所选的灯光图标
 4. 删除对象：删除当前所选的灯光
-5. 清空所有：清空编辑视图所有的灯光图标和数据
+5. 清空所有：清空插件面板所有的灯光图标和数据
 
 <br />
 
@@ -68,6 +68,11 @@ layout: doc
   <img src="/img/lighthit_setting_cn_2.webp" data-zoomable alt="LightHit" width=50% >
   <img src="/img/lighthit_setting_en_2.webp" data-zoomable alt="LightHit" width=50% >
 </div>
+
+::: danger 注意
+如果修改了插件设置，需要右键清空所有，再重新拖入灯光对象
+:::
+
 
 1. 默认半径：设置编辑器的默认初始距离半径（默认是500）
 2. 独显名称：独显是根据名称筛选，可以自定义关键词
