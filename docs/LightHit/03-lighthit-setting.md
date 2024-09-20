@@ -10,11 +10,11 @@ layout: doc
 
 ### 英文
 <br />
-<img src="/img/lighthit_setting_en.webp" data-zoomable alt="LightHit" width=100% >
+<img src="/img/lighthit_setting_v2_en.webp" data-zoomable alt="LightHit" width=100% >
 
 ### 中文
 <br />
-<img src="/img/lighthit_setting_cn.webp" data-zoomable alt="LightHit" width=100% >
+<img src="/img/lighthit_setting_v2_cn.webp" data-zoomable alt="LightHit" width=100% >
 
 
 <br />
@@ -22,37 +22,76 @@ layout: doc
 
 ## 设置说明
 
-#### 1 灯光名称
+### 1 灯光名称
 显示当前所选灯光的名称
 
 <br />
 
-#### 2 灯光状态
+### 2 灯光贴图资产
+- 选中灯光图标之后点击可以显示灯光贴图资产, 双击可以自动设置灯光贴图
+- 可以在[插件设置](#_9-设置菜单)中自定义资产文件夹
+
+<br />
+
+#### 自定义资产文件夹
+自定义资产文件夹需要遵循以下文件夹结构
+```
+├─ 自定义资产文件夹
+   ├─ Textures
+   └─ Thumbnails
+```
+
+- Textures文件夹放原图
+- Thumbnails文件夹放缩略图
+- 原图和缩略图名称需要相同, 缩略图建议是150px
+
+
+
+<br />
+
+#### 支持灯光
+```
+Redshift: Infinite Light, Point Light, Spot Light, Area Light, IES Light
+
+Octane: Octane Arealight, Octane les Light
+
+Arnold: Arnold mesh light, Arnold quad light, Arnold photometric light
+
+V-Ray: Rectangle Light, Mesh Light, IES Light
+
+Corona: Corona Light
+```
+
+<br />
+
+### 3 灯光状态
 点击可以切换显示/隐藏当前所选灯光
 
 <br />
 
-#### 3 灯光独显
+### 4 灯光独显
 点击可以切换独显当前所选灯光
 
 <br />
 
-#### 4 灯光距离
+### 5 灯光距离
 设置灯光与目标对象的距离
 
 <br />
 
-#### 5 设置目标对象
-点击5会显示6，如果不设置目标对象默认是世界原点
+### 6 设置目标对象
+如果不设置目标对象默认是世界原点
 
 <br />
 
-#### 6 设置目标对象
-点击5会显示6
+### 7 LightHit Tool
+1. 选中图标之后单击会启动LightHit Tool, 再次单击会切换为移动工具
+2. 启动之后, 选中的灯光会显示黄色的标识线, 点击模型就会自动调节灯光位置
+3. 如果模型结构比较复杂, 需要先设置为[目标对象](#_6-设置目标对象)
 
 <br />
 
-#### 7 右键菜单
+### 8 右键菜单
 1. 刷新：刷新重载视图
 2. 复制对象：复制当前所选的灯光
 3. 删除图标：删除插件面板所选的灯光图标
@@ -61,12 +100,12 @@ layout: doc
 
 <br />
 
-#### 8 设置菜单
+### 9 设置菜单
 <br />
 
 <div class="img-to" >
-  <img src="/img/lighthit_setting_cn_2.webp" data-zoomable alt="LightHit" width=50% >
-  <img src="/img/lighthit_setting_en_2.webp" data-zoomable alt="LightHit" width=50% >
+  <img src="/img/lighthit_setting_v2_2_cn.webp" data-zoomable alt="LightHit" width=50% >
+  <img src="/img/lighthit_setting_v2_2_en.webp" data-zoomable alt="LightHit" width=50% >
 </div>
 
 ::: danger 注意
@@ -78,3 +117,4 @@ layout: doc
 2. 独显名称：独显是根据名称筛选，可以自定义关键词(关键词之间使用英文逗号`,`分隔)
 3. 图标尺寸：设置编辑器图标显示的尺寸
 4. 图标字数：设置编辑器图标显示的文字的长度
+5. 灯光资产路径：默认是插件的示例资产, 可以根据需要自定义, 资产的文件夹结构参考[2.灯光贴图资产](#_2-灯光贴图资产)
