@@ -13,7 +13,7 @@ import { NAV_DATA } from '../OC-NodeTool-data'
 OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点，自动设置ID，自动添加Layer /Custom AOV等等……
 <br />
 <br />
-- 支持版本：`Cinema 4D R23~2024`
+- 支持版本：`Cinema 4D R23~2025`
 - 插件下载地址（付费）：https://cgexe.com/57283/
 - 插件需要登录后才能使用：[登录说明](01-OMT-setting)
 

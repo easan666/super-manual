@@ -13,7 +13,7 @@ import { NAV_DATA } from '../CR-MatTool-data'
 CR-MatTool是Corona材质辅助工具 一键连接PBR贴图，批量添加TriPlanar节点，一键处理重复贴图，批量添加调节节点，批量转换Bitmap……
 <br />
 <br />
-- 支持版本：`Cinema 4D R24~2024`
+- 支持版本：`Cinema 4D R24~2025`
 - 插件下载地址（付费）：https://cgexe.com/57351/
 - 插件需要登录后才能使用：[登录说明](01-CMT-setting)
 

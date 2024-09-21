@@ -16,7 +16,7 @@ Link4D 是Windows系统和C4D交互的插件，支持**六大主流渲染器**�
 
 <br />
 
-- 支持版本：`Cinema 4D R23~2024`，只支持Windows系统
+- 支持版本：`Cinema 4D R23~2025`，只支持Windows系统
 - 支持`Redshift` / `Octane` / `Arnold` / `V-Ray` / `Corona` / `Standard` / `Physical`
 - 插件下载地址（付费）：https://cgexe.com/57511/
 - 插件首次使用需要登录后`重启C4D`：[登录说明](01-link4d-setting)

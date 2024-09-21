@@ -14,7 +14,7 @@ import { NAV_DATA } from '../AutoSort-data'
 AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同名独显（灯光独显），同组独显所选（灯光独显），独显所选对象，支持自定义类型、颜色、正则关键词等等……
 <br />
 <br />
-- 支持版本：`Cinema 4D R23~2024`
+- 支持版本：`Cinema 4D R23~2025`
 - 插件下载地址（付费）：https://cgexe.com/57457/
 - 插件需要登录后才能使用：[登录说明](01-AutoSort-setting)
 

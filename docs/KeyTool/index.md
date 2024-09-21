@@ -14,7 +14,7 @@ import { NAV_DATA } from '../KeyTool-data'
 KeyTool是C4D的关键帧工具，支持多类型帧偏移，可以分离位置和旋转动画，删除无用/全部帧，自动生成位置曲线，自动对齐曲线，自动添加声音/时间轨道……
 <br />
 <br />
-- 支持版本：`Cinema 4D R23~2024`
+- 支持版本：`Cinema 4D R23~2025`
 - 插件下载地址（付费）：https://cgexe.com/57641/
 - 插件需要登录后才能使用：[登录说明](01-kt-license)
 

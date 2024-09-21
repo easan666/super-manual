@@ -14,7 +14,7 @@ import { NAV_DATA } from '../GetColor-data'
 GetColor可以根据剪切板数据生成材质，支持复制颜色代码生成材质，支持截图/复制图片生成材质，支持六大主流渲染器
 <br />
 <br />
-- 支持版本：`Cinema 4D S24~2024`
+- 支持版本：`Cinema 4D S24~2025`
 - 支持`Redshift` / `Octane` / `Arnold` / `V-Ray` / `Corona` / `Standard` / `Physical`
 - 插件下载地址（付费）：https://cgexe.com/57555/
 - 插件需要登录后才能使用：[登录说明](01-GetColor-setting)

@@ -13,7 +13,7 @@ import { NAV_DATA } from '../AR-AutoNode-data'
 AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Material）和legacy节点（Arnold Material/legacy），可以自动连接PBR贴图，自动插入节点，自动连接指定通道，自动添加UV控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，等等……
 <br />
 <br />
-- 支持版本：`Cinema 4D R25~2024`
+- 支持版本：`Cinema 4D R25~2025`
 - 插件下载地址（付费）：https://cgexe.com/56745/
 - 插件需要登录后才能使用：[登录说明](01-AAN-setting)
 - 首次使用先需要导入插件`assets`文件夹的`AutoNode.zip`节点资产：[导入教程](01-AAN-import_assets)

@@ -13,7 +13,7 @@ import { NAV_DATA } from '../RS-NodeTool-data'
 RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
 <br />
 <br />
-- 支持版本：`Cinema 4D 2023~2024`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
+- 支持版本：`Cinema 4D 2023~2025`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
 - 插件下载地址（付费）：https://cgexe.com/56536/
 - 插件需要登录后才能使用：[登录说明](01-RNT-setting)
 - 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`节点资产：[导入教程](03-RNT-AutoNode#导入)
