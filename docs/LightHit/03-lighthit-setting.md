@@ -10,11 +10,11 @@ layout: doc
 
 ### 英文
 <br />
-<img src="/img/lighthit_setting_v2_1_1_en.webp" data-zoomable alt="LightHit" width=100% >
+<img src="/img/lighthit_setting_v2_2_1_en.webp" data-zoomable alt="LightHit" width=100% >
 
 ### 中文
 <br />
-<img src="/img/lighthit_setting_v2_cn.webp" data-zoomable alt="LightHit" width=100% >
+<img src="/img/lighthit_setting_v2_2_1_cn.webp" data-zoomable alt="LightHit" width=100% >
 
 
 <br />
@@ -84,14 +84,19 @@ Corona: Corona Light
 
 <br />
 
-### 7 LightHit Tool
+### 7 自定角度
+默认灯光是朝向目标对象，开启后可以自己调节灯光角度
+
+<br />
+
+### 8 LightHit Tool
 1. 选中图标之后单击会启动LightHit Tool, 再次单击会切换为移动工具
 2. 启动之后, 选中的灯光会显示黄色的标识线, 点击模型就会自动调节灯光位置
 3. 如果模型结构比较复杂, 需要先设置为[目标对象](#_6-设置目标对象)
 
 <br />
 
-### 8 右键菜单
+### 9 右键菜单
 1. 刷新：刷新重载视图
 2. 复制对象：复制当前所选的灯光
 3. 删除图标：删除插件面板所选的灯光图标
@@ -100,7 +105,7 @@ Corona: Corona Light
 
 <br />
 
-### 9 设置菜单
+### 10 设置菜单
 <br />
 
 <div class="img-to" >

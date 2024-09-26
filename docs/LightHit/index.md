@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../LightHit-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/LightHit.webp" alt="Custom Icon"></span>LightHit v2.1.0
+# <span class="h1-icon"><img src="/img/LightHit.webp" alt="Custom Icon"></span>LightHit v2.2.0
 
 ## 说明
 LightHit是C4D打光插件，支持主流渲染器，参考了KeyShot的操作方式，可以快速便捷地控制灯光位置，支持独显，自动设置灯光贴图等灯光操作……
@@ -42,7 +42,11 @@ LightHit是C4D打光插件，支持主流渲染器，参考了KeyShot的操作�
 
 ## 更新说明
 
-::: info LightHit v2.1.0<Badge type="danger" text="更新1" />
+::: info LightHit v2.2.0<Badge type="danger" text="更新1" />
+1. 新增自定角度，开启后可以自己调节灯光角度
+:::
+
+::: details LightHit v2.1.0<Badge type="info" text="更新1" />
 1. Octane新增切换纹理类型，可以在插件设置选择Texture或者Distribution
 :::
 
