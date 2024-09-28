@@ -32,7 +32,7 @@ LightHit是C4D打光插件，支持主流渲染器，参考了KeyShot的操作�
 <br />
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=113074358976807&bvid=BV1HyHxesEqj&cid=25725045672&p=1&autoplay=0;"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=113213962260707&bvid=BV1zbxKeBE6w&cid=26043155402&p=1&autoplay=0;"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 
