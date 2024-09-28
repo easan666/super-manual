@@ -20,7 +20,7 @@ hero:
 features:
   - icon:
       src: ./img/LightHit-200.webp
-    title: LightHit v2.2.0
+    title: LightHit v2.3.0
     details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
     link: /LightHit/
   - icon: 
