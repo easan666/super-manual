@@ -27,8 +27,17 @@ layout: doc
 </video>
 
 <br />
-
 <br />
+
+## arnold使用注意
+由于arnold灯光对象比较特殊，使用灯光资产的时候，Arnold灯光需要点击任意处才会刷新UI
+
+
+<video controls>
+  <source src="/img/arnold_mesh_light_setting_demo.webm" type="video/webm">
+</video>
+
+
 
 <br />
 
