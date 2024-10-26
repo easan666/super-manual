@@ -41,7 +41,7 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.6.0<Badge type="danger" text="更新9+" />
+::: info RS_NodeTool v2.7.0<Badge type="danger" text="更新9+" />
 1. 新增通道独显功能，可以独显所选材质或者所选对象的材质通道
 2. 新增绝对路径转换，可以将所选材质的纹理路径转换为绝对路径
 3. RS-材质ID和RS-对象ID新增设置通道相同ID（按Alt键使用）
