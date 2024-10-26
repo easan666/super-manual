@@ -3,102 +3,27 @@ layout: doc
 ---
 # <span class="h1-icon"><img src="/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置
 
-## 登录验证
-每个用户可以在**5台电脑**上使用（重装系统会计数），超过5台电脑将会被禁止登录。  
-如果短时间内在多地登录或者短时间登录多台电脑，视为异常记录，**可能会封号或者拉黑**。  
-没有异常记录却被误封或者无法登录可以联系管理员（`cgexe@qq.com`）解封。
-
-- 打开插件的设置，切换顶部的tab到`登录验证`。  
-- 输入用户名（邮箱）和密码，点击`登录`按钮。  当你输入正确的用户名（邮箱）和密码后，插件将会验证你的身份。  
-<br/>
-
-> 使用QQ注册的用户可以在[个人信息](https://cgexe.com/user/profile/)绑定邮箱，然后再重置/设置密码。  
-如果忘记密码可以[找回密码](https://cgexe.com/lostpwd/)
-
-<br/>
-<br/>
-
-<img src="/img/login.webp" data-zoomable alt="登录验证" width=50% >
-
-<!-- ![](/img/login.webp){data-zoomable} -->
 
 ## 插件设置
-- 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/rs-nodetool_v2_4_setting.webp" alt="插件设置" width=50%>
-
-<br />
-
-### 文件夹/列表模式
-
-::: danger 注意
-由于C4D 2024.4相关api的变更，无法正常切换到列表模式，AutoNode（自动节点）可能不再维护。
-请使用RS-NodeMenu（节点菜单）替代。
-:::
-
-- 此处是用于AutoNode（自动节点）的显示模式
-- 列表模式和文件夹模式：
+- 中文 
 <div class="img-to" >
-  <img data-zoomable src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
-  <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
+  <img data-zoomable src="/img/rs_nodetool_2.7_setting_1_cn.webp" width=50%>
+  <img data-zoomable src="/img/rs_nodetool_2.7_setting_2_cn.webp" width=50%>
 </div>
 
 <br />
 
-### Substance节点尺寸设置
-可以设置Substance节点贴图默认的大小，连接后会自动设置。
-
-
-<br />
-
-### Specular/Metallic流程
-可以选择Substance节点Specular/Metallic流程，连接后会自动设置。  
-
-```
-金属/粗糙度流程 Metal/Roughness Workflow ：
-Base Color（基础色贴图）、 Metallic（金属贴图）、 Roughness（粗糙度贴图）  
-
-镜面反射/光泽度流程 Specular/Glossiness Workflow ：
-Diffuse（漫反射贴图）、Specular（镜面反射贴图）、Glossiness（光泽度贴图）  
-```
-
-<br />
-
-### 自动排列节点
-AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。  
-如果这里取消勾选则不会自动排列。
-
-<br />
-
-### 自动重命名贴图
-AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。  
-取消勾选则不会自动命名。
-
-
-<br />
-
-### 自动添加调节节点
-AutoPBR（自动PBR）和To PBR（PBR连接）执行后会根据贴图连接的通道自动添加调节节点（Color Correct或者Ramp）。  
-取消勾选则不会自动添加调节节点。
-
-```
-此功能仅作用于纹理节点，其他节点不会添加
-```
-
-<br />
-
-### 自动重命名材质
-AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材质。  
-取消勾选则不会自动重命名材质。
+- 英文 
+<div class="img-to" >
+  <img data-zoomable src="/img/rs_nodetool_2.7_setting_1_en.webp" width=50%>
+  <img data-zoomable src="/img/rs_nodetool_2.7_setting_2_en.webp" width=50%>
+</div>
 
 <br />
 
 
----
-
-<br />
-
-### 自定义通道关键词
+## 关键词设置
 AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需要设置对应的关键词。
 
 ![关键词](/img/keywords_for_file_names.webp){data-zoomable}
@@ -156,7 +81,72 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 
 <br />
 
----
+
+## 其他设置
+
+<br />
+
+### 自动排列节点
+AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。  
+如果这里取消勾选则不会自动排列。
+
+<br />
+
+### 自动重命名贴图
+AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。  
+取消勾选则不会自动命名。
+
+
+<br />
+
+### 自动添加调节节点
+AutoPBR（自动PBR）和To PBR（PBR连接）执行后会根据贴图连接的通道自动添加调节节点（Color Correct或者Ramp）。  
+取消勾选则不会自动添加调节节点。
+
+```
+此功能仅作用于纹理节点，其他节点不会添加
+```
+
+<br />
+
+### 自动重命名材质
+AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材质。  
+取消勾选则不会自动重命名材质。
+
+<br />
+
+### 文件夹/列表模式
+
+::: danger 注意
+由于C4D 2024.4相关api的变更，无法正常切换到列表模式，AutoNode（自动节点）可能不再维护。
+请使用RS-NodeMenu（节点菜单）替代。
+:::
+
+- 此处是用于AutoNode（自动节点）的显示模式
+- 列表模式和文件夹模式：
+<div class="img-to" >
+  <img data-zoomable src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
+  <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
+</div>
+
+<br />
+
+### Substance节点设置
+可以设置Substance节点贴图默认的大小，连接后会自动设置。
+
+
+<br />
+
+### Specular/Metallic流程
+可以选择Substance节点Specular/Metallic流程，连接后会自动设置。  
+
+```
+金属/粗糙度流程 Metal/Roughness Workflow ：
+Base Color（基础色贴图）、 Metallic（金属贴图）、 Roughness（粗糙度贴图）  
+
+镜面反射/光泽度流程 Specular/Glossiness Workflow ：
+Diffuse（漫反射贴图）、Specular（镜面反射贴图）、Glossiness（光泽度贴图）  
+```
 
 <br />
 
@@ -168,11 +158,6 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 >复制的端口ID会比较长，如`com.redshift3d.redshift4c4d.nodes.core.standardmaterial.base_color`  
 设置的时候只需要添加后缀，如：`base_color`
 
-<br />
-
-<img data-zoomable src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
-
-<br />
 <br />
 
 
@@ -201,5 +186,11 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 
 ### 自定义弹窗菜单
 > 自定义菜单相关设置请参考[自定义菜单](03-RNT-NodeMenu)
+
+<br />
+
+
+### 检索文件夹路径
+用于[Convert Path（转为绝对路径）](05-RNT-ConvertPath)，会检索贴图是否存在于当前文件夹下，如果存在将替换为绝对路径
 
 <br />

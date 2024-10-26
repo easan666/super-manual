@@ -46,6 +46,12 @@ export const NAV_DATA: NavData[] = [
         link: './04-RNT-MatID',
       },
       {
+        icon: '../../img/RS-SoloChannel.webp',
+        title: 'Solo Channel（独显通道）',
+        desc: '独显所选材质或者所选对象的材质通道',
+        link: './05-RNT-Solo_channel',
+      },
+      {
         icon: '../../img/To PBR.webp',
         title: 'To PBR（PBR连接）',
         desc: '自动连接到指定PBR端口(自动混合多节点)',
@@ -92,6 +98,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Blur Node（模糊节点）',
         desc: '为贴图节点设置模糊效果',
         link: './12-RNT-Blur_Node',
+      },
+      {
+        icon: '../../img/RS-ConvertPath.webp',
+        title: 'Convert Path（绝对路径）',
+        desc: '可以将所选材质的纹理路径转换为绝对路径',
+        link: './05-RNT-ConvertPath',
       },
     ],
   },

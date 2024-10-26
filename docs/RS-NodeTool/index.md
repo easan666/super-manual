@@ -10,7 +10,7 @@ import { NAV_DATA } from '../RS-NodeTool-data'
 
 # <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.6.0
 ## 说明
-RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
+RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，独显通道，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
 <br />
 <br />
 - 支持版本：`Cinema 4D 2023~2025`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
@@ -41,14 +41,26 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.6.0<Badge type="danger" text="更新6+" />
+::: info RS_NodeTool v2.6.0<Badge type="danger" text="更新9+" />
+1. 新增通道独显功能，可以独显所选材质或者所选对象的材质通道
+2. 新增绝对路径转换，可以将所选材质的纹理路径转换为绝对路径
+3. RS-材质ID和RS-对象ID新增设置通道相同ID（按Alt键使用）
+4. 修复RS-材质ID对旧版Material节点无效的bug
+5. 修复ObjectID（对象ID）的已知bug
+6. 优化RS-材质ID的设置逻辑，可以为未添加PuzzleMatte的材质设置aov
+7. 修复RS-节点菜单无法添加数值节点的bug
+8. 优化插件设置GUI
+9. 优化插件配置文件保存目录
+
+:::
+
+::: details RS_NodeTool v2.6.0<Badge type="info" text="更新6+" />
 1. 优化To Sprite（转为Sprite）的使用方式，可以选择未连接纹理节点转为Sprite
 2. 优化NodeMenu（节点菜单）的使用方式，可以选择未连接节点插入节点
 3. 优化triplanar的设置逻辑
 4. 修改适配C4D 2024.4相关api
 5. 修复ObjectID（对象ID）的已知bug
 6. 新增自动设置Material ID（材质ID）
-
 :::
 
 ::: details RS_NodeTool v2.5.0<Badge type="info" text="更新4+" />
