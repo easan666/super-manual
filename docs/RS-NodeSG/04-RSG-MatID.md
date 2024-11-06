@@ -7,6 +7,7 @@ layout: doc
 
 ---
 
+
 ### 简介
 
 - 为所选材质自动设置Material ID（材质ID）
@@ -28,7 +29,26 @@ layout: doc
 <br/>
 
 ### 自动材质PuzzleMatte使用
-选中所需对象，然后配合Ctrl或者Alt点击执行
+
+<br/>
+<br/>
+
+#### 配合Ctrl键
+选中所需材质，然后配合Ctrl键点击执行，会为PuzzleMatte每个通道分配一个不同的id
+<br/>
+
+<video controls>
+  <source src="/rs-sg/rs-nodesg-2-5-matid-02.webm" type="video/webm">
+</video>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+#### 配合Alt键
+选中所需材质，然后配合Alt键点击执行，会为PuzzleMatte每个通道分配一个单独的id
 <br/>
 
 <video controls>
@@ -37,3 +57,4 @@ layout: doc
 
 <br/>
 <br/>
+

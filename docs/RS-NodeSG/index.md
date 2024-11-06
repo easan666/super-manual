@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../RS-NodeSG-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/RS-NodeSG.webp" alt="Custom Icon"></span>RS-NodeSG v2.4.0
+# <span class="h1-icon"><img src="/img/RS-NodeSG.webp" alt="Custom Icon"></span>RS-NodeSG v2.5.0
 ## 说明
 RS-NodeSG是Redshift的<span class="gb-text">Shader Graph（旧版节点）</span>辅助工具，可以自动连接PBR贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
 <br />
@@ -32,10 +32,16 @@ RS-NodeSG是Redshift的<span class="gb-text">Shader Graph（旧版节点）</spa
 ## 更新说明
 
 ::: info RS-NodeSG v2.4.0<Badge type="danger" text="更新3+" />
+1. RS-材质ID和RS-对象ID新增设置通道相同ID（按Alt键使用）
+2. 优化插件设置GUI
+3. 优化插件配置文件保存目录
+
+:::
+
+::: details RS-NodeSG v2.4.0 <Badge type="info" text="更新3" />
 1. 优化To Absolute Path（转为绝对路径）对特殊路径的处理
 2. 修复Object ID（对象ID）选择父子级无法添加的bug
 3. 修复Object ID（对象ID）撤回可能导致C4D无响应的bug
-
 :::
 
 ::: details RS-NodeSG v2.3.0 <Badge type="info" text="更新4" />
