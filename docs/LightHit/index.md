@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../LightHit-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/LightHit.webp" alt="Custom Icon"></span>LightHit v2.3.1
+# <span class="h1-icon"><img src="/img/LightHit.webp" alt="Custom Icon"></span>LightHit v2.4.0
 
 ## 说明
 LightHit是C4D打光插件，支持主流渲染器，参考了KeyShot的操作方式，可以快速便捷地控制灯光位置，支持独显，自动设置灯光贴图等灯光操作……
@@ -42,7 +42,12 @@ LightHit是C4D打光插件，支持主流渲染器，参考了KeyShot的操作�
 
 ## 更新说明
 
-::: info LightHit v2.3.1<Badge type="danger" text="更新1" />
+::: info LightHit v2.4.0<Badge type="danger" text="更新2" />
+1. 新增图标随机颜色，可以设置拖入灯光图标随机颜色，用于区分灯光，在插件设置开启/关闭
+2. 新增灯光贴图图标，使用灯光资产时会设置贴图缩略图为图标，在插件设置开启/关闭
+:::
+
+::: details LightHit v2.3.1<Badge type="info" text="更新1" />
 1. 修复Arnold渲染器设置灯光贴图无效的bug，双击灯光资产会自动设置
 :::
 

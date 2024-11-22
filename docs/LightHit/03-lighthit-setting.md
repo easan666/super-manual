@@ -120,8 +120,8 @@ Corona: Corona Light
 <br />
 
 <div class="img-to" >
-  <img src="/img/lighthit_setting_v2_1_2_cn.webp" data-zoomable alt="LightHit" width=50% >
-  <img src="/img/lighthit_setting_v2_1_2_en.webp" data-zoomable alt="LightHit" width=50% >
+  <img src="/lighthit/lighthit_setting_v2_4_cn.webp" data-zoomable alt="LightHit" width=50% >
+  <img src="/lighthit/lighthit_setting_v2_4_en.webp" data-zoomable alt="LightHit" width=50% >
 </div>
 
 ::: danger 注意
@@ -133,5 +133,7 @@ Corona: Corona Light
 2. 独显名称：独显是根据名称筛选，可以自定义关键词(关键词之间使用英文逗号`,`分隔)
 3. 图标尺寸：设置编辑器图标显示的尺寸
 4. 图标字数：设置编辑器图标显示的文字的长度
-5. 灯光资产路径：默认是插件的示例资产, 可以根据需要自定义, 资产的文件夹结构参考[2.灯光贴图资产](#_2-灯光贴图资产)
-3. Octane纹理类型：可以选择灯光贴图设置Texture或者Distribution
+5. 图标随机颜色：设置拖入灯光图标随机颜色
+6. 灯光贴图图标：使用灯光资产时会设置贴图缩略图为图标
+7. 灯光资产路径：默认是插件的示例资产, 可以根据需要自定义, 资产的文件夹结构参考[2.灯光贴图资产](#_2-灯光贴图资产)
+8. Octane纹理类型：可以选择灯光贴图设置Texture或者Distribution

@@ -19,6 +19,11 @@ hero:
 
 features:
   - icon:
+      src: ./img/LightHit-200.webp
+    title: LightHit v2.4.0
+    details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
+    link: /LightHit/
+  - icon:
       src: ./img/RS-NodeSG.webp
     title: RS-NodeSG v2.5.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
@@ -28,11 +33,6 @@ features:
     title: RS-NodeTool v2.7.0
     details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeTool/
-  - icon:
-      src: ./img/LightHit-200.webp
-    title: LightHit v2.3.1
-    details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
-    link: /LightHit/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool v1.5.0
