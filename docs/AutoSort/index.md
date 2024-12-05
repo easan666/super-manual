@@ -8,10 +8,10 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AutoSort-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.4.0
+# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.5.0
 
 ## 说明
-AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同名独显（灯光独显），同组独显所选（灯光独显），独显所选对象，支持自定义类型、颜色、正则关键词等等……
+AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同名独显（灯光独显），同组独显所选（灯光独显），独显所选对象，根据名称排序，根据对象命名材质，设置图标/对象随机色，支持自定义类型、颜色、正则关键词等等……
 <br />
 <br />
 - 支持版本：`Cinema 4D R23~2025`
@@ -60,7 +60,14 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.3.0<Badge type="danger" text="更新3+" />
+::: info AutoSort v1.5.0<Badge type="danger" text="更新4+" />
+1. 新增Sort By Name（名称排序），选择多个对象单击会根据名称排序, Alt或者Ctrl+单击是反序
+2. 新增Renam Mat By Obj（对象材质命名），选择对象单击, 会根据对象名称重命名所使用的材质
+3. 新增Set Icon Random Color（图标随机色），选择对象单击可以设置图标随机颜色, Alt或者Ctrl+单击是取消图标颜色
+4. 新增Set Obj Random Color（对象随机色），选择对象单击可以设置对象随机颜色, Alt或者Ctrl+单击是取消对象颜色
+:::
+
+::: details AutoSort v1.4.0<Badge type="info" text="更新3+" />
 1. 新增Name Solo（同名独显），根据名称过滤相关对象，单击可将所选独显（可用于灯光独显）
 2. 新增Auto Group（一键打组），可以根据设置自动为所选对象打组，类似一键整理，区别就是不会添加层
 3. 修复Select Solo（所选独显）使用时摄像机锁定的bug

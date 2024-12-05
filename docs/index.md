@@ -19,6 +19,11 @@ hero:
 
 features:
   - icon:
+      src: ./img/AutoSort-200.webp
+    title: AutoSort v1.5.0
+    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
+    link: /AutoSort/
+  - icon:
       src: ./img/LightHit-200.webp
     title: LightHit v2.4.0
     details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
@@ -43,11 +48,6 @@ features:
     title: KeyTool v1.0.0
     details: 关键帧工具，多类型帧偏移，分离位置和旋转动画，删除无用/全部帧，自动生成位置曲线，自动对齐曲线，自动添加声音/时间轨道……
     link: /KeyTool/
-  - icon:
-      src: ./img/AutoSort-200.webp
-    title: AutoSort v1.4.0
-    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
-    link: /AutoSort/
   - icon:
       src: ./img/AR-AutoNode-2-200.webp
     title: AR-AutoNode v2.2.0

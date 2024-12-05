@@ -51,6 +51,30 @@ export const NAV_DATA: NavData[] = [
         desc: '可将所选对象的轴心置于底部中心',
         link: './05-AutoSort-axistobottom',
       },
+      {
+        icon: '../../auto_sort/Sort_By_Name.webp',
+        title: 'Sort By Name（名称排序）',
+        desc: '选择多个对象单击会根据名称排序/反序',
+        link: './08-AutoSort-sort_by_name',
+      },
+      {
+        icon: '../../auto_sort/Rename_Mat_By_Obj.webp',
+        title: 'Rename Mat（对象材质命名）',
+        desc: '根据所选对象名称重命名所使用的材质',
+        link: './09-AutoSort-rename_mat_by_obj',
+      },
+      {
+        icon: '../../auto_sort/Set_Icon_Random_Color.webp',
+        title: 'Icon Random Color（图标随机色）',
+        desc: '可将所选对象的图标设置随机颜色/取消颜色',
+        link: './10-AutoSort-set_icon_random_color',
+      },
+      {
+        icon: '../../auto_sort/Set_Obj_Random_Color.webp',
+        title: 'Obj Random Color（对象随机色）',
+        desc: '可将所选对象设置显示随机颜色/取消颜色',
+        link: './11-AutoSort-set_obj_random_color',
+      },
     ],
   },
 ]
