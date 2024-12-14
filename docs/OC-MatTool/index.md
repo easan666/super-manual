@@ -8,14 +8,14 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../OC-NodeTool-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool v1.5.0
+# <span class="h1-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool v1.6.0
 ## 说明
-OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点，自动设置ID，自动添加Layer /Custom AOV等等……
+OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，设置灯光排除，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点，自动设置ID，自动添加Layer /Custom AOV等等……
 <br />
 <br />
 - 支持版本：`Cinema 4D R23~2025`
 - 插件下载地址（付费）：https://cgexe.com/57283/
-- 插件需要登录后才能使用：[登录说明](01-OMT-setting)
+- 插件需要登录后才能使用：[登录说明](01-OMT-license)
 
 
 <br />
@@ -28,7 +28,14 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 ## 更新说明
 
-::: info OC-MatTool v1.5.0<Badge type="danger" text="更新5+" />
+::: info OC-MatTool v1.6.0<Badge type="danger" text="更新4+" />
+1. 新增Light Pass Mask（灯光通道遮罩），可以根据需要设置灯光排除
+2. 新增灯光通道标签，可以根据需要设置灯光排除和显示灯光ID
+3. 优化AutoPBR（自动PBR）的关键词算法，可以识别文件名比较复制的贴图
+4. 优化插件配置文件保存目录
+:::
+
+::: details OC-MatTool v1.4.0<Badge type="info" text="更新5" />
 1. 新增AutoMask（自动蒙版），可以为所选对象自动设置Layer Id，自动添加Layer Mask
 2. 修复AutoID（自动ID）选择父子级无法添加的bug
 3. 修复AutoID（自动ID）撤回可能导致C4D无响应的bug

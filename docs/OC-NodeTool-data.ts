@@ -22,6 +22,12 @@ export const NAV_DATA: NavData[] = [
         link: './02-OMT-AutoPBR',
       },
       {
+        icon: '../../img/oclignht pass.webp',
+        title: 'Light Pass Mask（灯光通道遮罩）',
+        desc: '根据需要设置灯光排除/包含',
+        link: './09-OMT-LightPassMask',
+      },
+      {
         icon: '../../img/RS-AutoID.webp',
         title: 'AutoID（自动ID）',
         desc: '为所选对象自动设置Layer ID / Custom AOV',

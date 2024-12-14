@@ -94,7 +94,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '🧾 简介/更新说明', link: '/OC-MatTool/' },
-            { text: '插件设置/登录验证', link: '/OC-MatTool/01-OMT-setting' },
+            { text: '登录说明', link: '/OC-MatTool/01-OMT-license' },
+            { text: '插件设置', link: '/OC-MatTool/01-OMT-setting' },
             { text: 'AutoPBR（自动PBR）', link: '/OC-MatTool/02-OMT-AutoPBR' },
             { text: 'AutoID（自动ID）', link: '/OC-MatTool/03-OMT-AutoID' },
             { text: 'AutoMask（自动蒙版）', link: '/OC-MatTool/08-OMT-AutoMask' },
@@ -102,6 +103,7 @@ export default defineConfig({
             { text: '添加Chaos节点 (处理重复)', link: '/OC-MatTool/05-OMT-SetChaos' },
             { text: '添加UV Transform节点', link: '/OC-MatTool/06-OMT-SetUVTransform' },
             { text: '添加TriPlanar节点', link: '/OC-MatTool/07-OMT-SetTriPlanar' },
+            { text: '灯光通道遮罩', link: '/OC-MatTool/09-OMT-LightPassMask' },
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },

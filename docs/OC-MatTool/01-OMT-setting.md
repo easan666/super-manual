@@ -3,33 +3,6 @@ layout: doc
 ---
 # <span class="h1-icon"><img src="/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置
 
-## 登录验证
-每个用户可以在**5台电脑**上使用（重装系统会计数），超过5台电脑将会被禁止登录。  
-如果短时间内在多地登录或者短时间登录多台电脑，视为异常记录，**可能会封号或者拉黑**。  
-没有异常记录却被误封或者无法登录可以联系管理员（`cgexe@qq.com`）解封。
-
-<br/>
-
-
-
-- 打开插件的设置，切换顶部的tab到`登录验证`。  
-- 输入用户名（邮箱）和密码，点击`登录`按钮。  当你输入正确的用户名（邮箱）和密码后，插件将会验证你的身份。  
-<br/>
-
-> 使用QQ注册的用户可以在[个人信息](https://cgexe.com/user/profile/)绑定邮箱，然后再重置/设置密码。  
-如果忘记密码可以[找回密码](https://cgexe.com/lostpwd/)
-
-<br/>
-
-```
-部分VPN工具会造成C4D（2023之前版本）无法联网，如果提示网络问题，请关闭VPN重试
-
-```
-
-<br/>
-<img src="/img/login.webp" data-zoomable alt="登录验证" width=50% >
-
-<!-- ![](/img/login.webp){data-zoomable} -->
 
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
