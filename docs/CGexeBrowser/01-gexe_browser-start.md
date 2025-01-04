@@ -14,6 +14,13 @@ layout: doc
 `纹理节点`发送贴图只支持C4D原生的节点编辑器（octane和Corona不支持）
 :::
 
+## 视频教程
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&amp;aid=113771066431875&amp;bvid=BV1tKrxYFEQZ&amp;cid=27703969813&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
 <br />
 
 ## 文件结构/预览图

@@ -33,9 +33,9 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流
 ## 视频教程
 <br />
 
-<!-- <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=1703604989&bvid=BV1VT421172S&cid=1518250197&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</div> -->
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&amp;aid=113771066431875&amp;bvid=BV1tKrxYFEQZ&amp;cid=27703969813&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
 
 <br />
