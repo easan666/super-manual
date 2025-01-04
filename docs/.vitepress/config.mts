@@ -24,7 +24,19 @@ export default defineConfig({
     outlineTitle: '章节导航',
     lastUpdatedText: '上次更新时间',
     sidebar: {
-
+      '/CGexeBrowser/': [
+        {
+          text: 'CGexeBrowser',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/CGexeBrowser/' },
+            { text: 'CGexeBrowser', link: '/CGexeBrowser/01-gexe_browser-start' },
+            { text: '重启初始化', link: '/CGexeBrowser/02-cgexe_browser-initialize' },
+            { text: '插件设置', link: '/CGexeBrowser/03-cgexe_browser-setting' },
+          ]
+        },
+        { text: '可动程序CGexe', link: '/' },
+      ],
       '/RS-NodeTool/': [
         {
           text: 'RS-NodeTool',
