@@ -19,7 +19,7 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流
 - 支持版本：`Cinema 4D R23和以上版本`，只支持Windows系统
 - 支持`Redshift` / `Octane` / `Arnold` / `V-Ray` / `Corona` / `Standard` / `Physical`
 - 插件下载地址（付费）：https://cgexe.com/58021/
-- 插件首次使用需要登录后`重启C4D`：[登录说明](01-link4d-setting)，重启后需要设置资产文件夹路径
+- 插件首次使用需要登录后`重启C4D`：[登录说明](03-cgexe_browser-setting)，重启后需要设置资产文件夹路径
 
 
 <br />
