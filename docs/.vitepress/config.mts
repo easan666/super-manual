@@ -33,6 +33,7 @@ export default defineConfig({
             { text: 'CGexeBrowser', link: '/CGexeBrowser/01-gexe_browser-start' },
             { text: '重启初始化', link: '/CGexeBrowser/02-cgexe_browser-initialize' },
             { text: '插件设置', link: '/CGexeBrowser/03-cgexe_browser-setting' },
+            { text: '常见问题', link: '/CGexeBrowser/04-gexe_browser_FQ' },
           ]
         },
         { text: '可动程序CGexe', link: '/' },

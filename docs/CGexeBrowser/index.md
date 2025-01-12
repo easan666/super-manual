@@ -12,7 +12,7 @@ import { NAV_DATA } from '../CGexeBrowser-data'
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流渲染器**。  
-可以一键导入Megascans、GSG等常用资产，支持自动导入模型，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
+可以一键导入Megascans、GSG等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
 
 <br />
 
@@ -46,11 +46,26 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流
 ## 更新说明
 
 
-::: info CGexeBrowser v1.0.0<Badge type="danger" text="更新1+" />
-1. CGexeBrowser v1.0.0发布
+::: info CGexeBrowser v1.2.0<Badge type="danger" text="更新7+" />
+1. 优化导入C4D工程的功能，点击可以直接添加到当前文档（2023是新文档打开）
+2. 新增Octane自动设置贴图的功能，单击箭头可以创建对应的贴图节点，如果节点名称改为`666`可以实时替换节点，参考： [贴图/HDR导入](01-gexe_browser-start#octane)
+3. 新增自动设置贴图或者导入工程后会把路径写入剪切板，[Bokeh](01-gexe_browser-start#bokeh)贴图可以自己根据需要粘贴路径
+4. 新增自定义尺寸发送，在资产文件右键可以选择需要的尺寸，如果不选为插件的设置尺寸
+5. 新增鼠标侧键前进后退切换页面功能
+6. 取消自动监测资产文件夹更新初始化，修改资产后可以自行初始化
+7. 取消设置HDR时选中材质的提醒，如果设置贴图节点不要选择对象
+:::
+
+::: details CGexeBrowser v1.1.5<Badge type="info" text="更新2" />
+1. 修复在win11运行异常的bug
+2. 优化对灰猩猩Gobos贴图的设置
 
 :::
 
+::: details CGexeBrowser v1.0.0<Badge type="info" text="更新1" />
+1. CGexeBrowser v1.0.0发布
+
+:::
 
 <br />
 <br />

@@ -27,6 +27,12 @@ export const NAV_DATA: NavData[] = [
         desc: 'CGexeBrowser插件相关设置',
         link: './03-cgexe_browser-setting',
       },
+      {
+        icon: '../../img/fq.png',
+        title: '常见问题',
+        desc: 'CGexeBrowser常见问题',
+        link: './04-gexe_browser_FQ',
+      },
     ],
   },
 ]
