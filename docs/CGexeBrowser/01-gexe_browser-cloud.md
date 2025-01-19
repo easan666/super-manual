@@ -8,7 +8,7 @@ layout: doc
 CGexeBrowser支持调用网盘挂载的文件，可以方便地使用在线资产文件。  
 
 以下是注意事项：
-- `资产文件夹`建议是在本地硬盘，然后使用[符合链接](04-gexe_browser_FQ#_6-符号链接-软连接)添加网盘文件夹
+- `资产文件夹`建议是在本地硬盘，然后使用[符号链接](04-gexe_browser_FQ#_6-符号链接-软连接)添加网盘文件夹
 - 调用的网盘文件夹需要是CGexeBrowser支持的文件夹结构，参考: [文件结构/预览图](01-gexe_browser-start#文件结构-预览图)
 - 添加网盘文件夹之后需要点击[重启/初始化](02-cgexe_browser-initialize)，网盘文件扫描需要几分钟时间，请耐心等待。
 - 只有在`添加/修改`文件才需要初始化，之后都是秒开
@@ -90,7 +90,8 @@ Netmount下载地址 ：[https://www.netmount.cn/download](https://www.netmount.
 
 #### 5. 挂载成功
 
-挂载成功之后，建议在`设置`开启`开机自启`和`启动时隐藏窗口`
+挂载成功之后，建议在`设置`开启`开机自启`和`启动时隐藏窗口`  
+然后使用[符号链接](04-gexe_browser_FQ#_6-符号链接-软连接)在资产文件夹添加网盘文件夹
 
 ![netmount_1](/cgexe_browser/cgexe_browser_v_1_4_0_netmount_6.webp){data-zoomable}
 
