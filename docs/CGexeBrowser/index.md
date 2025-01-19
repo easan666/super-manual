@@ -8,11 +8,11 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.0.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.4.0
 
 ## 说明
-CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流渲染器**。  
-可以一键导入Megascans、GSG等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
+CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
+可以在线使用资产文件，一键导入Megascans、GSG等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
 
 <br />
 
@@ -20,6 +20,19 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流
 - 支持`Redshift` / `Octane` / `Arnold` / `V-Ray` / `Corona` / `Standard` / `Physical`
 - 插件下载地址（付费）：https://cgexe.com/58021/
 - 插件首次使用需要登录后`重启C4D`：[登录说明](03-cgexe_browser-setting)，重启后需要设置资产文件夹路径
+
+<br />
+
+## 安装
+1. 打开路径`%appdata%\Maxon`
+2. 新建一个`Plugins`文件夹，把插件放到这里
+3. 在C4D每个版本的`编辑`>`设置`>`插件`>`添加文件夹`，添加`Plugins`文件夹
+4. 重启C4D
+
+::: info 提示
+这样做的好处是可以多个C4D版本共享一个插件，统一管理，不用每个C4D版本都复制一份  
+`%appdata%\Maxon\Plugins`也是可动盒子的默认下载路径
+:::
 
 
 <br />
@@ -46,7 +59,23 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**六大主流
 ## 更新说明
 
 
-::: info CGexeBrowser v1.2.0<Badge type="danger" text="更新7+" />
+::: info CGexeBrowser v1.4.0<Badge type="danger" text="更新5+" />
+1. 重写核心逻辑和数据扫描算法，扫描效率提高了10倍+（3.5w本地文件只需1~3秒）
+2. 支持网盘挂载资产文件，可以直接调用各种网盘资产文件
+3. 修复日期排序的bug
+4. 优化右键刷新页面逻辑
+5. 优化部分样式
+:::
+
+
+::: details CGexeBrowser v1.3.0<Badge type="info" text="更新3" />
+1. 新增索引文件支持（用于Megascans资产）
+2. 优化数据结构文件
+3. 优化部分样式问题
+
+:::
+
+::: details CGexeBrowser v1.2.0<Badge type="info" text="更新7" />
 1. 优化导入C4D工程的功能，点击可以直接添加到当前文档（2023是新文档打开）
 2. 新增Octane自动设置贴图的功能，单击箭头可以创建对应的贴图节点，如果节点名称改为`666`可以实时替换节点，参考： [贴图/HDR导入](01-gexe_browser-start#octane)
 3. 新增自动设置贴图或者导入工程后会把路径写入剪切板，[Bokeh](01-gexe_browser-start#bokeh)贴图可以自己根据需要粘贴路径

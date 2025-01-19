@@ -4,7 +4,10 @@ layout: doc
 # <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="CGexeBrowser"></span>CGexeBrowser
 
 ## 说明
-- 基于windows文件夹结构的本地化资产管理，备份和迁移操作简单。
+- 基于windows文件夹结构的本地化资产管理，不会对文件夹有任何修改
+- 支持[网盘挂载文件](01-gexe_browser-cloud)，可以方便地使用在线资产文件。
+- CGexeBrowser理论上支持百万级别的文件数量（我没试过），建议文件数量在十万以内。
+- 修改资产文件夹后需要手动点击[重启/初始化](02-cgexe_browser-initialize)（3.5w网盘文件初始化扫描时间大概是1~2分钟，本地3.5w文件初始化扫描时间大概是1~3秒）
 - 针对Megascans、GSG等常用资产进行了优化处理，支持一键自动导入
 - 支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图
 - 首次使用需要设置[资产文件夹](03-cgexe_browser-setting#插件设置-1)路径，设置后需要初始化

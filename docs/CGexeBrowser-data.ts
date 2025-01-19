@@ -16,6 +16,12 @@ export const NAV_DATA: NavData[] = [
         link: './01-gexe_browser-start',
       },
       {
+        icon: '../../img/link4d-Settings.webp',
+        title: '网盘挂载',
+        desc: '调用网盘挂载文件，在线使用资产文件',
+        link: './01-gexe_browser-cloud',
+      },
+      {
         icon: '../../cgexe_browser/restart_browser.webp',
         title: '重启/初始化',
         desc: 'CGexeBrowser重启/初始化',

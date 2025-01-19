@@ -58,9 +58,9 @@ layout: doc
 <br />
 
 
-### 6. 只有一个资产文件夹不够用
+### 6. 符号链接（软连接）
 
-- 有些资产因为比较大或者各种原因在电脑其他盘，可以使用Symbolic link（符号链接）添加到CGexeBrowser资产文件夹
+- 有些资产因为比较大或者各种原因在电脑其他盘（网盘挂载），可以使用Symbolic link（符号链接）添加到CGexeBrowser资产文件夹
 - 复制插件目录的`create_symlink.bat`到CGexeBrowser资产文件夹，右键管理员运行`bat`文件，粘贴需要添加的文件夹路径
 
 ::: info 提示
