@@ -24,7 +24,9 @@ CGexeBrowser支持调用网盘挂载的文件，可以方便地使用在线资�
 - 挂载网盘之后最好是设置开机自启动（Netmount直接在设置开启）
 
 ::: info 提醒
-Netmount下载地址 ：[https://www.netmount.cn/download](https://www.netmount.cn/download)
+Netmount下载地址 ：[https://www.netmount.cn/download](https://www.netmount.cn/download)  
+WinFsp官网下载地址（如果提示下载）： [https://winfsp.dev/rel/](https://winfsp.dev/rel/)  
+WinFsp蓝奏云下载 ：[https://wwlc.lanzouu.com/ihuli2lexiva](https://wwlc.lanzouu.com/ihuli2lexiva)
 :::
 <br />
 
