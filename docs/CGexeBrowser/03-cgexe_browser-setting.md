@@ -163,6 +163,7 @@ CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以�
 - 本地和网盘其实一样，区别就是网盘的路径添加之后的默认图标是☁️
 - 路径数量没有限制，一个路径对应CGexeBrowser左侧菜单一个文件夹（菜单排序是按名称）
 - 添加的路径在[重启/初始化](02-cgexe_browser-initialize)中可以选择更新
+- 视频说明：[点击查看](https://www.bilibili.com/video/BV13pfsY3ETz)
 
 <br />
 <div class="img-to" >

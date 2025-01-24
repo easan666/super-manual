@@ -15,5 +15,14 @@ layout: doc
 
 <img src="/cgexe_browser/cgexe_browser_v_1_5_0_initialization.webp" data-zoomable alt="登录验证" width=100% >
 
+
+<br />
+
+## 视频说明
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=113884648182395&bvid=BV13pfsY3ETz&cid=28061335980&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 <br />
 
