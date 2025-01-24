@@ -27,7 +27,7 @@ layout: doc
 #### 中文设置截图
 <div class="img-to" >
   <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_0_0_setting_cn_1.webp" alt="cgexe_browser" width=40%>
-  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_0_0_setting_cn_2.webp" alt="cgexe_browser" width=40%>
+  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_5_0_setting_cn_2.webp" alt="cgexe_browser" width=40%>
 </div>
 
 <br />
@@ -35,7 +35,7 @@ layout: doc
 #### 中文设置截图
 <div class="img-to" >
   <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_0_0_setting_en_1.webp" alt="cgexe_browser" width=40%>
-  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_0_0_setting_en_2.webp" alt="cgexe_browser" width=40%>
+  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_5_0_setting_en_2.webp" alt="cgexe_browser" width=40%>
 </div>
 
 <br />
@@ -156,12 +156,24 @@ CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以�
 <br />
 
 
-## 资产文件夹
-插件启动必须先设置资产文件夹，不然会无法启动。如果修改了路径需要`重启/初始化`。
+## 资产文件夹路径
+插件启动必须先设置资产文件夹，不然会无法启动。如果修改了路径需要[重启/初始化](02-cgexe_browser-initialize)。
+
+- 右键可以添加路径
+- 本地和网盘其实一样，区别就是网盘的路径添加之后的默认图标是☁️
+- 路径数量没有限制，一个路径对应CGexeBrowser左侧菜单一个文件夹（菜单排序是按名称）
+- 添加的路径在[重启/初始化](02-cgexe_browser-initialize)中可以选择更新
+
+<br />
+<div class="img-to" >
+  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_5_0_setting_folder_path_cn.webp" alt="cgexe_browser" width=40%>
+  <img data-zoomable src="/cgexe_browser/cgexe_browser_v_1_5_0_setting_folder_path_en.webp" alt="cgexe_browser" width=40%>
+</div>
+<img src="/cgexe_browser/cgexe_browser_v_1_5_0_setting_folder_path_cn_2.webp" data-zoomable alt="登录验证" width=81% >
 
 <br />
 
-## 临时文件夹
+## 临时文件夹路径
 插件导入zip压缩包或者缩放贴图会把文件保存在临时文件夹，可以点击`…`选择文件夹，如果没有读写权限会提示。
 
 <br />

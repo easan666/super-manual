@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.4.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.5.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,14 +59,25 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.4.0<Badge type="danger" text="更新5+" />
+::: info CGexeBrowser v1.5.0<Badge type="danger" text="更新4+" />
+1. 新增支持多资产文件夹路径
+2. 优化数据库生成逻辑
+3. 新增可选路径初始化
+4. 优化部分样式
+:::
+
+::: details CGexeBrowser v1.4.2<Badge type="info" text="更新2" />
+1. 优化符号链接创建脚本
+2. 优化插件启动方式
+:::
+
+::: details CGexeBrowser v1.4.0<Badge type="info" text="更新5" />
 1. 重写核心逻辑和数据扫描算法，扫描效率提高了10倍+（3.5w本地文件只需1~3秒）
 2. 支持网盘挂载资产文件，可以直接调用各种网盘资产文件
 3. 修复日期排序的bug
 4. 优化右键刷新页面逻辑
 5. 优化部分样式
 :::
-
 
 ::: details CGexeBrowser v1.3.0<Badge type="info" text="更新3" />
 1. 新增索引文件支持（用于Megascans资产）
