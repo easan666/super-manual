@@ -22,12 +22,6 @@ export const NAV_DATA: NavData[] = [
         link: './02-RNT-AutoPBR',
       },
       {
-        icon: '../../img/RS-QuickNode.webp',
-        title: 'AutoNode（自动节点）',
-        desc: '根据所选自动创建并连接节点',
-        link: './03-RNT-AutoNode',
-      },
-      {
         icon: '../../img/RS-NodeMenu.webp',
         title: 'NodeMenu（节点菜单）',
         desc: '自定义常用节点和命令菜单',

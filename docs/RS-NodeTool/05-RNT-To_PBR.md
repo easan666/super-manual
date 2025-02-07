@@ -17,8 +17,6 @@ layout: doc
 - Tip: 选择的节点可以是任意节点，如果是纹理节点会根据连接的通道设置颜色空间
 - Tip: To PBR（PBR连接）是弹出菜单，可以打开命令管理（Shift+F12）根据自己需要设置快捷键
 
-> 也可以在AutoNode（自动节点）[使用该命令](03-RNT-AutoNode)
-
 
 <br/>
 <br/>
@@ -34,13 +32,3 @@ layout: doc
 <br/>
 <br/>
 
-### 在AutoNode（自动节点）使用
-
-<br/>
-
-<video controls>
-  <source src="/img/autonode-to_pbr.webm" type="video/webm">
-</video>
-
-<br/>
-<br/>

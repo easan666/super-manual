@@ -9,7 +9,7 @@ layout: doc
 - 中文 
 <div class="img-to" >
   <img data-zoomable src="/img/rs_nodetool_2.7_setting_1_cn.webp" width=50%>
-  <img data-zoomable src="/img/rs_nodetool_2.7_setting_2_cn.webp" width=50%>
+  <img data-zoomable src="/rs-node/rs_nodetool_2.8_setting_2_cn.webp" width=50%>
 </div>
 
 <br />
@@ -17,7 +17,7 @@ layout: doc
 - 英文 
 <div class="img-to" >
   <img data-zoomable src="/img/rs_nodetool_2.7_setting_1_en.webp" width=50%>
-  <img data-zoomable src="/img/rs_nodetool_2.7_setting_2_en.webp" width=50%>
+  <img data-zoomable src="/rs-node/rs_nodetool_2.8_setting_2_en.webp" width=50%>
 </div>
 
 <br />
@@ -115,7 +115,7 @@ AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材�
 
 <br />
 
-### 文件夹/列表模式
+<!-- ### 文件夹/列表模式
 
 ::: danger 注意
 由于C4D 2024.4相关api的变更，无法正常切换到列表模式，AutoNode（自动节点）可能不再维护。
@@ -129,7 +129,7 @@ AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材�
   <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
 </div>
 
-<br />
+<br /> -->
 
 ### Substance节点设置
 可以设置Substance节点贴图默认的大小，连接后会自动设置。
@@ -185,6 +185,13 @@ Diffuse（漫反射贴图）、Specular（镜面反射贴图）、Glossiness（�
 <br />
 
 ### 自定义弹窗菜单
+<br />
+
+<div class="img-to" >
+  <img data-zoomable src="/rs-node/rs_nodetool_2.8_nodemenu_setting_cn.webp" alt="nodemenu_setting" width=40%>
+  <img data-zoomable src="/rs-node/rs_nodetool_2.8_nodemenu_setting_en.webp" alt="nodemenu_setting" width=40%>
+</div>
+
 > 自定义菜单相关设置请参考[自定义菜单](03-RNT-NodeMenu)
 
 <br />

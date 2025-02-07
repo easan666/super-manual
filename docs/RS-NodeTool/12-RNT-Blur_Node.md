@@ -20,7 +20,7 @@ layout: doc
 <br />
 
 ::: danger 首次使用
-首次使用先需要导入插件assets文件夹的NodeTool.zip节点文件：[导入教程](03-RNT-AutoNode#导入)
+首次使用先需要导入插件assets文件夹的NodeTool.zip节点文件：[导入教程](13-RNT-import)
 :::
 
 <br />

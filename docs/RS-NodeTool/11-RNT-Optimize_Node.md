@@ -40,14 +40,3 @@ layout: doc
 <br/>
 <br/>
 
-
-### 在AutoNode（自动节点）使用
-
-<br/>
-
-<video controls>
-  <source src="/img/autonode-optimize_all_node.webm" type="video/webm">
-</video>
-
-<br/>
-<br/>

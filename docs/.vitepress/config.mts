@@ -47,9 +47,16 @@ export default defineConfig({
             { text: '简介/更新说明', link: '/RS-NodeTool/' },
             { text: '登录说明', link: '/RS-NodeTool/00-RNT-license' },
             { text: '插件设置', link: '/RS-NodeTool/01-RNT-setting' },
+            { text: '⭐导入节点资产', link: '/RS-NodeTool/13-RNT-import' },
             { text: 'AutoPBR（自动PBR）', link: '/RS-NodeTool/02-RNT-AutoPBR' },
-            { text: 'NodeMenu（节点菜单）', link: '/RS-NodeTool/03-RNT-NodeMenu' },
-            { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
+            {
+              text: 'NodeMenu（节点菜单）', collapsed: false, items: [
+                { text: '说明', link: '/RS-NodeTool/03-RNT-NodeMenu' },
+                { text: '自定义菜单', link: '/RS-NodeTool/03-RNT-NodeMenu_setting' },
+                { text: '演示说明', link: '/RS-NodeTool/03-RNT-NodeMenu-demo' },
+              ]
+            },
+            // { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
             { text: 'Solo channel（通道独显）', link: '/RS-NodeTool/05-RNT-Solo_channel' },
             { text: 'To PBR（PBR连接）', link: '/RS-NodeTool/05-RNT-To_PBR' },
             { text: 'Convert Path（绝对路径）', link: '/RS-NodeTool/05-RNT-ConvertPath' },

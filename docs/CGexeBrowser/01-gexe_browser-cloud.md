@@ -92,7 +92,7 @@ WinFsp蓝奏云下载 ：[https://wwlc.lanzouu.com/ihuli2lexiva](https://wwlc.la
 #### 5. 挂载成功
 
 挂载成功之后，建议在`设置`开启`开机自启`和`启动时隐藏窗口`  
-然后使用[符号链接](04-gexe_browser_FQ#_6-符号链接-软连接)在资产文件夹添加网盘文件夹
+需要点击[重启/初始化](02-cgexe_browser-initialize)，添加网盘文件夹路径然后初始化。
 
 ![netmount_1](/cgexe_browser/cgexe_browser_v_1_4_0_netmount_6.webp){data-zoomable}
 

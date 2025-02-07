@@ -32,14 +32,3 @@ layout: doc
 <br/>
 <br/>
 
-### 在AutoNode（自动节点）使用
-执行完成后需要手动排列所有节点（Shift+L）
-
-<br/>
-
-<video controls>
-  <source src="/img/autonode-set_color_space.webm" type="video/webm">
-</video>
-
-<br/>
-<br/>

@@ -30,12 +30,3 @@ layout: doc
 <br/>
 <br/>
 
-### 在AutoNode（自动节点）使用
-<br/>
-
-<video controls>
-  <source src="/img/autonode-set-udim.webm" type="video/webm">
-</video>
-
-<br/>
-<br/>
