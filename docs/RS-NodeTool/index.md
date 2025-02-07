@@ -16,7 +16,7 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 - 支持版本：`Cinema 4D 2023~2025`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
 - 插件下载地址（付费）：https://cgexe.com/56536/
 - 插件需要登录后才能使用：[登录说明](01-RNT-setting)
-- 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`节点资产：[导入教程](03-RNT-AutoNode#导入)
+- 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`节点资产：[导入教程](03-RNT-NodeMenu-demo)
 
 
 <br />
