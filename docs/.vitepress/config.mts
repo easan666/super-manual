@@ -219,11 +219,13 @@ export default defineConfig({
             { text: 'AutoGroup（一键打组）', link: '/AutoSort/06-AutoGroup-document' },
             { text: 'Name Solo（同名独显）', link: '/AutoSort/07-AutoSort-namesolo' },
             { text: 'GroupSolo（同组独显）', link: '/AutoSort/03-AutoSort-groupsolo' },
+            { text: 'Hide Selected（隐藏所选）', link: '/AutoSort/13-AutoSort-hide_selected' },
             { text: 'SelectSolo（所选独显）', link: '/AutoSort/04-AutoSort-selectsolo' },
             { text: 'Sort By Name（名称排序）', link: '/AutoSort/08-AutoSort-sort_by_name' },
             { text: 'Rename Mat By Obj（对象材质命名）', link: '/AutoSort/09-AutoSort-rename_mat_by_obj' },
             { text: 'Set Icon Random Color（图标随机色）', link: '/AutoSort/10-AutoSort-set_icon_random_color' },
             { text: 'Set Obj Random Color（对象随机色）', link: '/AutoSort/11-AutoSort-set_obj_random_color' },
+            { text: 'Top Selected（置顶所选）', link: '/AutoSort/12-AutoSort-top_selected' },
 
           ]
         },

@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.5.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.6.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,11 +59,20 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.5.0<Badge type="danger" text="更新4+" />
-1. 新增支持多资产文件夹路径
-2. 优化数据库生成逻辑
-3. 新增可选路径初始化
-4. 优化部分样式
+::: info CGexeBrowser v1.6.0<Badge type="danger" text="更新5+" />
+1. 优化预览图识别逻辑，修复相关问题
+2. 新增支持Bridge（Megascans）软件的下载目录读取
+3. 新增右键复制路径
+4. 优化导入C4D工程的逻辑
+5. 新增optimize_folders.bat用于优化文件夹层级
+:::
+
+::: details CGexeBrowser v1.5.0<Badge type="info" text="更新5" />
+1. 修复1.5.0插件设置无法保存路径的bug
+2. 新增支持多资产文件夹路径
+3. 优化数据库生成逻辑
+4. 新增可选路径初始化
+5. 优化部分样式
 :::
 
 ::: details CGexeBrowser v1.4.2<Badge type="info" text="更新2" />

@@ -60,11 +60,18 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.5.0<Badge type="danger" text="更新4+" />
+::: info AutoSort v1.6.0<Badge type="danger" text="更新4+" />
+1. 新增Hide Selected（隐藏所选），可以隐藏/显示所选对象
+2. 新增Top Selected（置顶所选），选择对象单击, 会将所选对象和对应的材质置顶
+3. 优化Renam Mat By Obj（对象材质命名），如果有选集会名称会添加选集名称
+:::
+
+::: details AutoSort v1.5.0<Badge type="info" text="更新4+" />
 1. 新增Sort By Name（名称排序），选择多个对象单击会根据名称排序, Alt或者Ctrl+单击是反序
 2. 新增Renam Mat By Obj（对象材质命名），选择对象单击, 会根据对象名称重命名所使用的材质
 3. 新增Set Icon Random Color（图标随机色），选择对象单击可以设置图标随机颜色, Alt或者Ctrl+单击是取消图标颜色
 4. 新增Set Obj Random Color（对象随机色），选择对象单击可以设置对象随机颜色, Alt或者Ctrl+单击是取消对象颜色
+
 :::
 
 ::: details AutoSort v1.4.0<Badge type="info" text="更新3+" />
