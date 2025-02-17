@@ -40,6 +40,12 @@ export const NAV_DATA: NavData[] = [
         link: './03-AutoSort-groupsolo',
       },
       {
+        icon: '../../auto_sort/SelectHide.webp',
+        title: 'Hide Selected（隐藏所选）',
+        desc: '隐藏/显示所选',
+        link: './13-AutoSort-hide_selected',
+      },
+      {
         icon: '../../img/SelectSolo.webp',
         title: 'SelectSolo（所选独显）',
         desc: '独显所选对象，Magic Solo的优化版',
@@ -74,6 +80,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Obj Random Color（对象随机色）',
         desc: '可将所选对象设置显示随机颜色/取消颜色',
         link: './11-AutoSort-set_obj_random_color',
+      },
+      {
+        icon: '../../auto_sort/Pin_Select_Top.webp',
+        title: 'Top Selected（置顶所选）',
+        desc: '选择对象单击, 会将所选对象和对应的材质置顶',
+        link: './12-AutoSort-top_selected',
       },
     ],
   },
