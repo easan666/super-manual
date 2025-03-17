@@ -22,6 +22,7 @@ layout: doc
 在插件设置中的`自定义弹出菜单`点击`设置菜单`, 或者按`Ctrl` / `Alt`点击`RS-NodeMenu（节点菜单）`可以自定义弹出菜单；  
 
 - 支持Redshift节点id，如：`com.redshift3d.redshift4c4d.nodes.core.rscolorcorrection` ……
+- 支持Redshift材质端口id，如`com.redshift3d.redshift4c4d.nodes.core.standardmaterial.base_color` ……
 - 支持c4d命令id，如：`12099`,`c4d.CallCommand(12161)`……
 - 支持插件自定义id，如：`to_diffuse`,`to_roughness`,`blur_node`……
 
@@ -91,6 +92,27 @@ id信息：编辑 > 节点编辑首选项 > 勾选id
   <source src="/rs-node/rs-nodetool-2-8-node-menu-setting_04.webm" type="video/webm">
 </video>
 
+
+<br/>
+
+## Redshift端口id
+添加Redshift材质端口id用于连接材质；
+
+复制材质的端口id然后点击粘贴，如`com.redshift3d.redshift4c4d.nodes.core.standardmaterial.base_color`  
+> 只支持标准材质节点和输出节点
+
+::: info 需要开启显示信息和id  
+显示信息：节点编辑器 > 预览 > 开启显示信息 
+ 
+id信息：编辑 > 节点编辑首选项 > 勾选id  
+:::
+
+
+<br />
+
+<video  controls autoplay muted>
+  <source src="/rs-node/rs-nodetool-2-9-node-menu-setting_05.webm" type="video/webm">
+</video>
 
 <br />
 <br />

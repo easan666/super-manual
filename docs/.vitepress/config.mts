@@ -56,7 +56,7 @@ export default defineConfig({
                 { text: '演示说明', link: '/RS-NodeTool/03-RNT-NodeMenu-demo' },
               ]
             },
-            // { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
+            { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
             { text: 'Solo channel（通道独显）', link: '/RS-NodeTool/05-RNT-Solo_channel' },
             { text: 'To PBR（PBR连接）', link: '/RS-NodeTool/05-RNT-To_PBR' },
             { text: 'Convert Path（绝对路径）', link: '/RS-NodeTool/05-RNT-ConvertPath' },
