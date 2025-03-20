@@ -24,6 +24,11 @@ features:
     details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeTool/
   - icon:
+      src: ./img/RS-NodeSG.webp
+    title: RS-NodeSG v2.6.0
+    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeSG/
+  - icon:
       src: ./img/AutoSort-200.webp
     title: AutoSort v1.6.0
     details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
@@ -43,11 +48,6 @@ features:
     title: LightHit v2.4.0
     details: C4D打光工具，可以便捷地控制灯光位置，支持独显等灯光管理……
     link: /LightHit/
-  - icon:
-      src: ./img/RS-NodeSG.webp
-    title: RS-NodeSG v2.5.0
-    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /RS-NodeSG/
   - icon:
       src: ./img/KeyTool.webp
     title: KeyTool v1.0.0
