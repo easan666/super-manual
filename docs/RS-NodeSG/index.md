@@ -31,7 +31,7 @@ RS-NodeSG是Redshift的<span class="gb-text">Shader Graph（旧版节点）</spa
 
 ## 更新说明
 
-::: info RS-NodeSG v2.4.0<Badge type="danger" text="更新1+" />
+::: info RS-NodeSG v2.6.0<Badge type="danger" text="更新1+" />
 1. 新增设置Material ID（材质ID）为0（点击Shift）
 
 :::
