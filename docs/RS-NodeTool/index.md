@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../RS-NodeTool-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.9.0
+# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.9.1
 ## 说明
 RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，独显通道，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
 <br />
@@ -41,10 +41,14 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.9.0<Badge type="danger" text="更新2+" />
+::: info RS_NodeTool v2.9.1<Badge type="danger" text="更新1+" />
+1. 新增设置Material ID（材质ID）为0（点击Shift）
+
+:::
+
+::: details RS_NodeTool v2.8.0<Badge type="info" text="更新2+" />
 1. 新增RS-NodeMenu（节点菜单）对材质端口id的支持
 2. 新增AutoNode的版本限制（2025限制不可用）
-
 :::
 
 ::: details RS_NodeTool v2.8.0<Badge type="info" text="更新6+" />

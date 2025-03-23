@@ -30,11 +30,11 @@ layout: doc
 
 ## 导入
 
-> 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`节点文件
+> 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`和`AutoNode.zip`节点文件
 
 <br/>
 
-1. 打开C4D的资产浏览器（Shift+F8），点击创建>导入资产>选择`NodeTool.zip`
+1. 打开C4D的资产浏览器（Shift+F8），点击创建>导入资产>依次选择`NodeTool.zip`和`AutoNode.zip`
 <br/>
 
 <img data-zoomable src="/img/import_node_assets.webp" alt="保存为新版本" width=50%>

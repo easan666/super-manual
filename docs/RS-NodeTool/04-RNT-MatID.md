@@ -11,6 +11,7 @@ layout: doc
 
 - 为所选材质自动设置Material ID（材质ID）
 - 选中所需材质，然后执行即可
+- 配合`Shift`点击可以将Material ID（材质ID）设置为0
 - 如果配合`Ctrl`或者`Alt`，点击可以同时设置AOV对应的材质 PuzzleMatte
 
 <br/>
@@ -18,6 +19,8 @@ layout: doc
 
 ### Material ID（材质ID）使用
 选中所需材质，然后点击执行
+> 配合`Shift`点击可以将Material ID（材质ID）设置为0
+
 <br/>
 
 <video controls>
