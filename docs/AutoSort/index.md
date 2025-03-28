@@ -60,7 +60,7 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.6.0<Badge type="danger" text="更新2+" />
+::: info AutoSort v1.7.0<Badge type="danger" text="更新2+" />
 1. 新增Top Object（对象置顶），选择对象单击, 会将所选对象置顶
 2. 新增Top Material（材质置顶），选择对象单击, 会将所选对象对应的材质置顶
 :::
