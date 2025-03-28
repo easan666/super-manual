@@ -87,6 +87,18 @@ export const NAV_DATA: NavData[] = [
         desc: '选择对象单击, 会将所选对象和对应的材质置顶',
         link: './12-AutoSort-top_selected',
       },
+      {
+        icon: '../../auto_sort/ObjectTop.webp',
+        title: 'Top Object（对象置顶）',
+        desc: '选择对象单击, 会将所选对象置顶',
+        link: './14-AutoSort-object_top',
+      },
+      {
+        icon: '../../auto_sort/MaterialTop.webp',
+        title: 'Top Material（材质置顶）',
+        desc: '选择对象单击, 会将所选对象对应的材质置顶',
+        link: './15-AutoSort-material_top',
+      },
     ],
   },
 ]

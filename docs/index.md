@@ -18,6 +18,11 @@ hero:
       link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon:
+      src: ./img/AutoSort-200.webp
+    title: AutoSort v1.7.0
+    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
+    link: /AutoSort/
   - icon: 
       src: ./img/RS-NodeTool-200.webp
     title: RS-NodeTool v2.9.2
@@ -28,11 +33,6 @@ features:
     title: RS-NodeSG v2.6.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeSG/
-  - icon:
-      src: ./img/AutoSort-200.webp
-    title: AutoSort v1.6.0
-    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
-    link: /AutoSort/
   - icon: 
       src: ./cgexe_browser/CGexeBrowser-200.webp
     title: CGexeBrowser v1.6.0
