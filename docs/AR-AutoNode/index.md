@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AR-AutoNode-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AR-AutoPBR.webp" alt="Custom Icon"></span>AR-AutoNode v2.1.0
+# <span class="h1-icon"><img src="/img/AR-AutoPBR.webp" alt="Custom Icon"></span>AR-AutoNode v2.2.1
 ## 说明
 AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Material）和legacy节点（Arnold Material/legacy），可以自动连接PBR贴图，自动插入节点，自动连接指定通道，自动添加UV控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，等等……
 <br />
@@ -29,7 +29,11 @@ AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Materi
 
 ## 更新说明
 
-::: info AR-AutoNode v2.2.0 <Badge type="danger" text="更新4+" />
+::: info AR-AutoNode v2.2.1 <Badge type="danger" text="更新1+" />
+1. 修复新版本中NodeMenu（节点菜单）无反应的bug
+:::
+
+::: details AR-AutoNode v2.2.0<Badge type="info" text="更新3" />
 1. 修复To PBR（PBR连接）连接凹凸无反应的bug
 2. 优化NodeMenu（节点菜单），未选择节点会自动创建节点
 3. 修改适配C4D 2024.4相关api

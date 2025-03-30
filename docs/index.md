@@ -19,6 +19,11 @@ hero:
 
 features:
   - icon:
+      src: ./img/AR-AutoNode-2-200.webp
+    title: AR-AutoNode v2.2.1
+    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /AR-AutoNode/
+  - icon:
       src: ./img/AutoSort-200.webp
     title: AutoSort v1.7.0
     details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
@@ -53,11 +58,6 @@ features:
     title: KeyTool v1.0.0
     details: 关键帧工具，多类型帧偏移，分离位置和旋转动画，删除无用/全部帧，自动生成位置曲线，自动对齐曲线，自动添加声音/时间轨道……
     link: /KeyTool/
-  - icon:
-      src: ./img/AR-AutoNode-2-200.webp
-    title: AR-AutoNode v2.2.0
-    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /AR-AutoNode/
   - icon: 
       src: ./img/GetColor-200.webp
     title: GetColor v1.0.0
