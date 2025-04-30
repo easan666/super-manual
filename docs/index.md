@@ -18,6 +18,11 @@ hero:
       link: https://www.bilibili.com/video/BV1zz421b7Lr
 
 features:
+  - icon: 
+      src: ./cgexe_browser/CGexeBrowser-200.webp
+    title: CGexeBrowser v1.7.0
+    details: C4D资产管理器，支持网盘挂载文件和六大主流渲染器，一键智能导入Megascans等常用资产，自动裁剪贴图，……
+    link: /CGexeBrowser/
   - icon:
       src: ./img/AR-AutoNode-2-200.webp
     title: AR-AutoNode v2.2.1
@@ -38,11 +43,6 @@ features:
     title: RS-NodeSG v2.6.0
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeSG/
-  - icon: 
-      src: ./cgexe_browser/CGexeBrowser-200.webp
-    title: CGexeBrowser v1.6.0
-    details: C4D资产管理器，支持网盘挂载文件和六大主流渲染器，一键智能导入Megascans等常用资产，自动裁剪贴图，……
-    link: /CGexeBrowser/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool v1.6.0

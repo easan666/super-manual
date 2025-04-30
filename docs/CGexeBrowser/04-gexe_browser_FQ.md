@@ -51,8 +51,13 @@ layout: doc
 
 ### 5. 更新插件怎么保存之前的设置
 
-- 插件的配置文件在`browser`文件夹的`config.json`
+- 插件的配置文件在`browser`文件夹的`config.json`和`browser_data.cgd`
 - 更新插件之前可以自行备份，更新覆盖即可
+
+::: info 提示
+CGexeBrowser v1.7.0 新增data_backup（数据备份）.bat文件，用于备份文件
+:::
+
 
 <br />
 <br />

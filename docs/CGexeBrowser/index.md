@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.6.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.7.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,18 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.6.0<Badge type="danger" text="更新5+" />
+::: info CGexeBrowser v1.7.0<Badge type="danger" text="更新8+" />
+1. 主要是优化灰猩猩材质的相关设置(Octane、Redshif、Arnold、Vray)
+2. 新增灰猩猩材质12种贴图的连接和处理
+3. 新增灰猩猩材质30多种参数的映射和设置
+4. 修复导入模型的bug
+5. 新增导入模型同时导入相关文件夹贴图
+6. 优化导入C4D文件的方式
+7. 优化网盘资源使用贴图的路径设置
+8. 新增data_backup（数据备份）.bat文件，用于备份文件
+:::
+
+::: details CGexeBrowser v1.6.0<Badge type="info" text="更新5" />
 1. 优化预览图识别逻辑，修复相关问题
 2. 新增支持Bridge（Megascans）软件的下载目录读取
 3. 新增右键复制路径
