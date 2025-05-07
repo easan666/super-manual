@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.7.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.7.2
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,11 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.7.0<Badge type="danger" text="更新8+" />
+::: info CGexeBrowser v1.7.2<Badge type="danger" text="更新1+" />
+1. 插件设置新增浏览器打开CGexeBrowser选项
+:::
+
+::: details CGexeBrowser v1.7.0<Badge type="info" text="更新8" />
 1. 主要是优化灰猩猩材质的相关设置(Octane、Redshif、Arnold、Vray)
 2. 新增灰猩猩材质12种贴图的连接和处理
 3. 新增灰猩猩材质30多种参数的映射和设置
