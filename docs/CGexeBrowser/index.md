@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.7.2
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.7.3
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,13 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.7.2<Badge type="danger" text="更新1+" />
+::: info CGexeBrowser v1.7.3<Badge type="danger" text="更新2+" />
+1. 新增可选是否使用置换贴图
+2. 优化关键词识别逻辑
+3. 修复修改贴图尺寸无效的bug
+:::
+
+::: details CGexeBrowser v1.7.2<Badge type="info" text="更新1" />
 1. 插件设置新增浏览器打开CGexeBrowser选项
 :::
 
