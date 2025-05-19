@@ -19,6 +19,11 @@ hero:
 
 features:
   - icon: 
+      src: ./img/RS-NodeTool-200.webp
+    title: RS-NodeTool v2.9.3
+    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeTool/
+  - icon: 
       src: ./cgexe_browser/CGexeBrowser-200.webp
     title: CGexeBrowser v1.7.3
     details: C4D资产管理器，支持网盘挂载文件和六大主流渲染器，一键智能导入Megascans等常用资产，自动裁剪贴图，……
@@ -33,11 +38,6 @@ features:
     title: AutoSort v1.7.0
     details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
     link: /AutoSort/
-  - icon: 
-      src: ./img/RS-NodeTool-200.webp
-    title: RS-NodeTool v2.9.2
-    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /RS-NodeTool/
   - icon:
       src: ./img/RS-NodeSG.webp
     title: RS-NodeSG v2.6.0
