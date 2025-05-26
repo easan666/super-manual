@@ -76,10 +76,20 @@ CGexeBrowser发送PBR贴图后会根据贴图连接的通道自动添加调节�
 
 <br />
 
+## 材质类型
+可以选择使用Standard Surface或者Universal材质。  
+Universal材质仅限于Octane。
+::: info 注意
+灰猩猩官方是使用Standard Surface材质，他的资产有十多种贴图和30多种参数的设置。有些贴图和参数的设置Universal材质是没有的。所以建议还是使用Standard Surface材质。
+:::
+
+<br />
+
 ## Octane纹理类型
 可以选择灯光贴图设置Texture或者Distribution
 
 <br />
+
 
 ## 自定义通道关键词
 CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以根据需要设置关键词。

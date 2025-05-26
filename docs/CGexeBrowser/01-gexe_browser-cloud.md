@@ -24,6 +24,8 @@ CGexeBrowser支持调用网盘挂载的文件，可以方便地使用在线资�
 
 ::: info 提醒
 Netmount下载地址 ：[https://www.netmount.cn/download](https://www.netmount.cn/download)  
+Netmount 1.1.2蓝奏云下载 ：[https://wwlc.lanzouu.com/ioQPa2x8tywj](https://wwlc.lanzouu.com/ioQPa2x8tywj)  
+
 WinFsp官网下载地址（如果提示下载）： [https://winfsp.dev/rel/](https://winfsp.dev/rel/)  
 WinFsp蓝奏云下载 ：[https://wwlc.lanzouu.com/ihuli2lexiva](https://wwlc.lanzouu.com/ihuli2lexiva)
 :::
