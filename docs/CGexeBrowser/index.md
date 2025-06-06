@@ -8,11 +8,11 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.8.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.9.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
-可以在线使用资产文件，一键导入Megascans、GSG等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
+可以在线使用资产文件，一键导入Megascans、GSG、sbsar文件（Substance材质）等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
 
 <br />
 
@@ -59,7 +59,15 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.8.0<Badge type="danger" text="更新4+" />
+::: info CGexeBrowser v1.9.0<Badge type="danger" text="更新5+" />
+1. 新增支持.sbsar文件（Substance材质），可以切换不同分辨率的贴图（如1k~8k贴图）导入
+2. 新增收藏功能
+3. 新增支持.omat文件，用于k3d等资产导入（后面整理好会发布）
+4. 新增导入材质后选择是否添加到所选对象（插件设置中设置）
+5. 优化设置贴图的交互提醒
+:::
+
+::: details CGexeBrowser v1.8.0<Badge type="info" text="更新4" />
 1. 优化灰猩猩材质的参数设置
 2. 优化octane材质的默认设置
 3. octane新增同时支持Standard Surface和Universal材质（在插件设置切换）
