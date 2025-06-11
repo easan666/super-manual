@@ -18,9 +18,83 @@ CGexeBrowser支持调用网盘挂载的文件，可以方便地使用在线资�
 
 ## 网盘挂载
 
-- 网盘挂载有很多方案，常用的就是Alist+RaiDrive，[Alist](https://alist.nn.ci/zh/guide/)支持市面上大部分的网盘。怎么挂载无所谓，只要能挂载就行了，自己选一个喜欢的方式。
-- 这里演示的是[Netmount](https://www.netmount.cn/) (基于Rclone+Alist)，以百度网盘为例
-- 挂载网盘之后最好是设置开机自启动（Netmount直接在设置开启）
+- 网盘挂载有很多方案，常用的就是Alist+RaiDrive，[Alist](https://alist.nn.ci/zh/guide/)支持市面上大部分的网盘。但是近期Alist出了一些问题，经常无法获取令牌。所以**推荐使用[CloudDrive2](https://www.clouddrive2.com/index.html)挂载**。怎么挂载无所谓，只要能挂载就行了，自己选一个喜欢的方式。
+- 这里演示的是[CloudDrive2](https://www.clouddrive2.com/index.html)和[Netmount](https://www.netmount.cn/) (基于Rclone+Alist)，以百度网盘为例。**二选一即可，推荐使用[CloudDrive2](https://www.clouddrive2.com/index.html)**。
+
+<br />
+
+<br />
+
+## CloudDrive2网盘挂载
+::: info 提醒
+CloudDrive2下载地址 ：[https://www.clouddrive2.com/download.html](https://www.clouddrive2.com/download.html)
+:::
+
+<br />
+
+### 视频教程
+
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=114663731762250&bvid=BV1xiM7zcE18&cid=30436953457&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+<br />
+
+
+
+<br />
+
+<br />
+
+
+### 图文教程
+
+<br />
+
+#### 1. 安装后打开
+- 下载CloudDrive2后安装，安装完成之后会打开一个本地的地址
+- 如果是第一次使用就注册后登录，有时候注册会显示已注册，那就直接登录
+
+![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_1.webp){data-zoomable}
+
+
+<br />
+
+#### 2. 添加百度网盘
+- 点击左上角的☁️按钮，选择百度网盘
+
+![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_2.webp){data-zoomable}
+
+
+<br />
+
+#### 3. 打开授权
+- 添加百度网盘之后会提示授权，打开页面授权之后就可以完成添加
+
+![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_3.webp){data-zoomable}
+
+
+<br />
+
+#### 4. 挂载到本地
+- 选择百度网盘，然后点击挂载到本地
+- 这里只需要修改挂载点，选择一个没有用的盘符即可
+- 最后点击挂载
+- 需要点击插件的[重启/初始化](02-cgexe_browser-initialize)，添加网盘文件夹路径然后初始化。
+
+![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_4.webp){data-zoomable}
+
+<br />
+
+
+
+<br />
+
+<br />
+
+## Netmount网盘挂载
 
 ::: info 提醒
 Netmount下载地址 ：[https://www.netmount.cn/download](https://www.netmount.cn/download)  
