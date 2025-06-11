@@ -20,7 +20,7 @@ hero:
 features:
   - icon: 
       src: ./cgexe_browser/CGexeBrowser-200.webp
-    title: CGexeBrowser v1.9.1
+    title: CGexeBrowser v1.9.2
     details: C4D资产管理器，支持网盘挂载文件和六大主流渲染器，一键智能导入Megascans等常用资产，自动裁剪贴图，……
     link: /CGexeBrowser/
   - icon: 
