@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.9.2
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.9.3
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,11 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.9.2<Badge type="danger" text="更新5+" />
+::: info CGexeBrowser v1.9.3<Badge type="danger" text="更新1+" />
+1. 修复无法导入C4D文件的bug
+:::
+
+::: details CGexeBrowser v1.9.2<Badge type="info" text="更新5" />
 1. 修复Redshift和Arnold中ao贴图没有连接的bug
 2. 优化导入灰猩猩数据材质的参数设置
 3. 修复导入材质后赋予对象的问题
