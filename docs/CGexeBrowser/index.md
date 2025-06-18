@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v1.9.3
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,16 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v1.9.3<Badge type="danger" text="更新1+" />
+::: info CGexeBrowser v2.0.0<Badge type="danger" text="更新6+" />
+1. 新增右键Triplanar菜单，用于材质添加Triplanar
+2. 优化预览图弹窗，支持滚轮切换
+3. 新增前后切换按键，用于没有侧键的鼠标
+4. 修复RS穹顶灯的颜色空间设置
+5. 优化omat导入相关设置
+6. 优化材质导入的相关设置
+:::
+
+::: details CGexeBrowser v1.9.3<Badge type="info" text="更新1" />
 1. 修复无法导入C4D文件的bug
 :::
 
