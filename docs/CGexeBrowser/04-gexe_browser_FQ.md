@@ -51,7 +51,7 @@ layout: doc
 
 ### 5. 更新插件怎么保存之前的设置
 
-- 插件的配置文件在`browser`文件夹的`config.json`和`browser_data.cgd`
+- 插件的数据文件在`browser`文件夹的`config.json`（配置），`browser_data.cgd`（数据库），`favorites.json`（收藏数据）
 - 更新插件之前可以自行备份，更新覆盖即可
 
 ::: info 提示
