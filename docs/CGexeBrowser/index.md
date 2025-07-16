@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.2
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.4
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -59,7 +59,21 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.0.2<Badge type="danger" text="更新1+" />
+::: info CGexeBrowser v2.0.4<Badge type="danger" text="更新5+" />
+1. 更新前请更新可动盒子CGexeBox v1.4.0，此版本更新自动备份CGexeBrowser配置文件。
+2. 优化侧边栏菜单，支持显示多级文件夹，支持调整宽度
+3. 修复侧边栏菜单修改图标的bug
+4. 置顶初始化进度条
+5. 优化导入Kitbash3D模型的相关设置
+:::
+
+::: details CGexeBrowser v2.0.3<Badge type="info" text="更新3" />
+1. 此次更新需要下载可动盒子CGexeBox最新版v1.3.0，优化使用可动盒子下载后重复验证的问题
+2. 优化贴图导入的逻辑
+3. 优化解压zip的文件夹命名问题
+:::
+
+::: details CGexeBrowser v2.0.2<Badge type="info" text="更新1" />
 1. 修复HDR的裁剪问题
 :::
 
