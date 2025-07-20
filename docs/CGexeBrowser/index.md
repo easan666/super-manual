@@ -12,7 +12,7 @@ import { NAV_DATA } from '../CGexeBrowser-data'
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
-可以在线使用资产文件，一键导入Megascans、GSG、sbsar文件（Substance材质）等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
+可以在线使用资产文件，一键导入Megascans、GSG、sbsar文件（Substance材质）、Kitbash3D等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
 
 <br />
 
@@ -22,19 +22,24 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 - 插件首次使用需要登录后`重启C4D`：[登录说明](03-cgexe_browser-setting)，重启后需要设置资产文件夹路径
 
 <br />
+<br />
 
 ## 安装
-1. 打开路径`%appdata%\Maxon`
-2. 新建一个`Plugins`文件夹，把插件放到这里
-3. 在C4D每个版本的`编辑`>`设置`>`插件`>`添加文件夹`，添加`Plugins`文件夹
-4. 重启C4D
+1. 下载[可动盒子](https://cgexe.com/cgexebox/)，首次使用可动盒子需要安装[.NET 8.0](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.5/windowsdesktop-runtime-8.0.5-win-x64.exe)
+2. 打开可动盒子之后下载对应的插件
+3. 在C4D每个版本的`编辑`>`设置`>`插件`>`添加文件夹`，添加可动盒子的插件目录
 
-::: info 提示
-这样做的好处是可以多个C4D版本共享一个插件，统一管理，不用每个C4D版本都复制一份  
-`%appdata%\Maxon\Plugins`也是可动盒子的默认下载路径
+::: info 提醒
+这样做的好处是可以多个C4D版本共享一个插件，统一管理，不用每个C4D版本都复制一份 
+`%appdata%\Maxon\Plugins`也是可动盒子的默认下载路径，不建议修改
 :::
 
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=114784225728284&bvid=BV1Jq38zfEFJ&cid=30879385386&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
+
+<br />
 <br />
 
 ## 功能介绍

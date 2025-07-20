@@ -13,7 +13,7 @@ layout: doc
 3.5w网盘文件初始化扫描时间大概是1~2分钟，本地3.5w文件初始化扫描时间大概是1~15秒
 :::
 
-<img src="/cgexe_browser/cgexe_browser_v_1_5_0_initialization.webp" data-zoomable alt="登录验证" width=100% >
+<img src="/cgexe_browser/cgexe_browser_v_1_5_0_initialization.webp" data-zoomable alt="初始化" width=100% >
 
 
 <br />
