@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.4
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.5
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,7 +64,16 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.0.4<Badge type="danger" text="更新5+" />
+::: info CGexeBrowser v2.0.5<Badge type="danger" text="更新6+" />
+1. 优化导入C4D文件的方式
+2. 修复Octane Standard材质灯光贴图连接的问题
+3. 优化前进后退显示逻辑
+4. 优化显示缓存，提高显示效率
+5. 优化载入逻辑
+6. 修复收藏夹的排序问题
+:::
+
+::: details CGexeBrowser v2.0.4<Badge type="info" text="更新5" />
 1. 更新前请更新可动盒子CGexeBox v1.4.0，此版本更新自动备份CGexeBrowser配置文件。
 2. 优化侧边栏菜单，支持显示多级文件夹，支持调整宽度
 3. 修复侧边栏菜单修改图标的bug
