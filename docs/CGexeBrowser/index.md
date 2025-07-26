@@ -66,7 +66,7 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 
 ::: info CGexeBrowser v2.0.5<Badge type="danger" text="更新6+" />
 1. 优化导入C4D文件的方式
-2. 修复Octane Standard材质灯光贴图连接的问题
+2. 修复Octane Standard材质发光贴图连接的问题
 3. 优化前进后退显示逻辑
 4. 优化显示缓存，提高显示效率
 5. 优化载入逻辑
