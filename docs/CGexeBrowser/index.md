@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.5
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.6
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,7 +64,12 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.0.5<Badge type="danger" text="更新6+" />
+::: info CGexeBrowser v2.0.6<Badge type="danger" text="更新2+" />
+1. 修改Redshift导入Substance材质的方式，统一导入为贴图
+2. 优化导入C4D文件的逻辑
+:::
+
+::: details CGexeBrowser v2.0.5<Badge type="info" text="更新6" />
 1. 优化导入C4D文件的方式
 2. 修复Octane Standard材质发光贴图连接的问题
 3. 优化前进后退显示逻辑
@@ -72,6 +77,7 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 5. 优化载入逻辑
 6. 修复收藏夹的排序问题
 :::
+
 
 ::: details CGexeBrowser v2.0.4<Badge type="info" text="更新5" />
 1. 更新前请更新可动盒子CGexeBox v1.4.0，此版本更新自动备份CGexeBrowser配置文件。
