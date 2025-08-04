@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.6
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.7
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,7 +64,13 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.0.6<Badge type="danger" text="更新2+" />
+::: info CGexeBrowser v2.0.7<Badge type="danger" text="更新3+" />
+1. 优化GSG Octane数据材质的参数设置
+2. 优化Octane灯光贴图的设置逻辑，选择标签也可以设置
+3. 优化Reshift，Arnold，Vray贴图的设置，如果没有选择纹理节点会自动创建
+:::
+
+::: details CGexeBrowser v2.0.6<Badge type="info" text="更新2" />
 1. 修改Redshift导入Substance材质的方式，统一导入为贴图
 2. 优化导入C4D文件的逻辑
 :::
