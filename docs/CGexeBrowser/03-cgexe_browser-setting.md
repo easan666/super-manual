@@ -76,6 +76,16 @@ CGexeBrowser发送PBR贴图后会根据贴图连接的通道自动添加调节�
 
 <br />
 
+## 使用置换贴图
+勾选则使用置换贴图
+
+<br />
+
+## 导入模型优化
+勾选后导入模型不会添加调节节点，k3d模型不会添加置换和ao贴图
+
+<br />
+
 ## 材质类型
 可以选择使用Standard Surface或者Universal材质。  
 Universal材质仅限于Octane。
@@ -90,6 +100,14 @@ Universal材质仅限于Octane。
 
 <br />
 
+## 导入Substance
+可以选导入Substance为贴图或者Substance节点（仅限RS和2024.5+）
+
+::: info 注意
+Substance节点仅限于RS渲染器，只在C4D 2024.5+版本有效。
+:::
+
+<br />
 
 ## 自定义通道关键词
 CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以根据需要设置关键词。
