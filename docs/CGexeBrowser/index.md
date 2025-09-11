@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.8
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.0.9
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,7 +64,11 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.0.8<Badge type="danger" text="更新5+" />
+::: info CGexeBrowser v2.0.9<Badge type="danger" text="更新1+" />
+1. 更新支持Maxon Cinema 4D 2026
+:::
+
+::: details CGexeBrowser v2.0.7<Badge type="info" text="更新5" />
 1. 修复搜索结果下导入资产的bug
 2. 修改Octane Triplanar的投射模式为Triplanar
 3. 插件设置新增导入Substance可选导入贴图或者节点（仅限RS和2024.5+）
