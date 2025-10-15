@@ -27,7 +27,9 @@ CGexeBrowser支持调用网盘挂载的文件，可以方便地使用在线资�
 
 ## CloudDrive2网盘挂载
 ::: info 提醒
-CloudDrive2下载地址 ：[https://www.clouddrive2.com/download.html](https://www.clouddrive2.com/download.html)
+CloudDrive2下载地址 ：[https://www.clouddrive2.com/download.html](https://www.clouddrive2.com/download.html)  
+CloudDrive2视频教程 ：[点击查看](https://www.bilibili.com/video/BV1Bw46ztEhP/?share_source=copy_web&vd_source=46329bbe65b4612ef4b45052f64ddb56&t=140)
+
 :::
 
 <br />
@@ -37,7 +39,7 @@ CloudDrive2下载地址 ：[https://www.clouddrive2.com/download.html](https://w
 <br />
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=114663731762250&bvid=BV1xiM7zcE18&cid=30436953457&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?isOutside=true&aid=115379280090343&bvid=BV1Bw46ztEhP&cid=33105052411&t=140&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 <br />
@@ -57,34 +59,31 @@ CloudDrive2下载地址 ：[https://www.clouddrive2.com/download.html](https://w
 - 下载CloudDrive2后安装，安装完成之后会打开一个本地的地址
 - 如果是第一次使用就注册后登录，有时候注册会显示已注册，那就直接登录
 
-![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_1.webp){data-zoomable}
+![CloudDrive2](/cgexe_browser/cgexe_browserclouddrive2_new_tutorial_1.webp){data-zoomable}
 
 
 <br />
 
 #### 2. 添加百度网盘
-- 点击左上角的☁️按钮，选择百度网盘
-
-![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_2.webp){data-zoomable}
-
-
-<br />
-
-#### 3. 打开授权
+- 点击左侧菜单的云储存，选择百度网盘
 - 添加百度网盘之后会提示授权，打开页面授权之后就可以完成添加
 
-![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_3.webp){data-zoomable}
+![CloudDrive2](/cgexe_browser/cgexe_browserclouddrive2_new_tutorial_2.webp){data-zoomable}
 
 
 <br />
 
-#### 4. 挂载到本地
-- 选择百度网盘，然后点击挂载到本地
-- 这里只需要修改挂载点，选择一个没有用的盘符即可
+#### 3. 挂载到本地
+- 点击左侧菜单的挂载，添加挂载点
+- 源目录点击🏠图标，选择根目录
+- 挂载点选择一个没有用的盘符即可
 - 最后点击挂载
 - 需要点击插件的[重启/初始化](02-cgexe_browser-initialize)，添加网盘文件夹路径然后初始化。
 
-![CloudDrive2](/cgexe_browser/clouddrive2_tutorial_4.webp){data-zoomable}
+![CloudDrive2](/cgexe_browser/cgexe_browserclouddrive2_new_tutorial_3.webp){data-zoomable}
+
+
+<img src="/cgexe_browser/cgexe_browser_v_1_5_0_initialization.webp" data-zoomable alt="初始化" width=100% >
 
 <br />
 
