@@ -226,6 +226,8 @@ export default defineConfig({
             { text: 'Set Icon Random Color（图标随机色）', link: '/AutoSort/10-AutoSort-set_icon_random_color' },
             { text: 'Set Obj Random Color（对象随机色）', link: '/AutoSort/11-AutoSort-set_obj_random_color' },
             { text: 'Top Selected（置顶所选）', link: '/AutoSort/12-AutoSort-top_selected' },
+            { text: 'Top Object（对象置顶）', link: '/AutoSort/14-AutoSort-object_top' },
+            { text: 'Top Material（材质置顶）', link: '/AutoSort/15-AutoSort-material_top' },
 
           ]
         },

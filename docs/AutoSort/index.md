@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../AutoSort-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.6.0
+# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.7.2
 
 ## 说明
 AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，同名独显（灯光独显），同组独显所选（灯光独显），独显所选对象，根据名称排序，根据对象命名材质，设置图标/对象随机色，支持自定义类型、颜色、正则关键词等等……
@@ -60,9 +60,16 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 ## 更新说明
 
-::: info AutoSort v1.7.0<Badge type="danger" text="更新2+" />
+::: info AutoSort v1.7.2<Badge type="danger" text="更新2+" />
+1. 修复所选独显在C4D 2026的bug
+2. 置顶所选和对象置顶新增Alt或者Ctrl+单击置顶到组首位
+:::
+
+::: details AutoSort v1.7.0<Badge type="info" text="更新2+" />
+
 1. 新增Top Object（对象置顶），选择对象单击, 会将所选对象置顶
 2. 新增Top Material（材质置顶），选择对象单击, 会将所选对象对应的材质置顶
+
 :::
 
 ::: details AutoSort v1.6.0<Badge type="info" text="更新43+" />
