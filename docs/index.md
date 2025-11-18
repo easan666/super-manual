@@ -20,7 +20,7 @@ hero:
 features:
   - icon: 
       src: ./cgexe_browser/CGexeBrowser-200.webp
-    title: CGexeBrowser v2.0.9
+    title: CGexeBrowser v2.1.0
     details: C4D资产管理器，支持网盘挂载文件和六大主流渲染器，一键智能导入Kitbash3D、GSG等常用资产，自动裁剪贴图，……
     link: /CGexeBrowser/
   - icon: 
@@ -70,7 +70,7 @@ features:
     link: /Link4D/
   - icon:
       src: ./img/VR-AutoNodev2-200.webp
-    title: VR-AutoNode v2.1.0
+    title: VR-AutoNode v2.1.2
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
   - icon:

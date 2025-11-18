@@ -28,6 +28,12 @@ export const NAV_DATA: NavData[] = [
         link: './02-cgexe_browser-initialize',
       },
       {
+        icon: '../../cgexe_browser/SaveProject.webp',
+        title: '工程打包',
+        desc: 'Vray/Arnold打包工程',
+        link: './02-project_packaging',
+      },
+      {
         icon: '../../img/link4d-Settings.webp',
         title: '插件设置/登录',
         desc: 'CGexeBrowser插件相关设置',
