@@ -30,7 +30,7 @@ features:
     link: /RS-NodeTool/
   - icon:
       src: ./img/AR-AutoNode-2-200.webp
-    title: AR-AutoNode v2.2.1
+    title: AR-AutoNode v2.3.0
     details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /AR-AutoNode/
   - icon:
