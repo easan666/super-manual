@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.1.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.2.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,12 +64,23 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.1.0<Badge type="danger" text="更新1+" />
+::: info CGexeBrowser v2.1.0<Badge type="danger" text="更新6+" />
+1. 优化octane中hdr导入的方式，如果有调节节点会自动替换纹理节点而不是新增
+2. 新增导入资产高亮显示
+3. 右键菜单新增预览选项
+4. 新增鼠标滚轮缩放预览图弹窗图片
+5. 新增自由点击模式，开启后单击卡片即可导入资产
+6. 新增历史记录，左侧菜单下发会显示导入的历史资产
+:::
+
+
+::: details CGexeBrowser v2.0.9<Badge type="info" text="更新2" />
 1. 修复Vray在C4D 2024导入材质端口连接错误的问题
 2. 新增工程打包，用于Vray/ Arnold, 功能和保存工程(包含资源)一样
 :::
 
-::: details CGexeBrowser v2.0.9<Badge type="info" text="更新5" />
+
+::: details CGexeBrowser v2.0.9<Badge type="info" text="更新1" />
 1. 更新支持Maxon Cinema 4D 2026
 :::
 
