@@ -64,7 +64,7 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.1.0<Badge type="danger" text="更新6+" />
+::: info CGexeBrowser v2.2.0<Badge type="danger" text="更新6+" />
 1. 优化octane中hdr导入的方式，如果有调节节点会自动替换纹理节点而不是新增
 2. 新增导入资产高亮显示
 3. 右键菜单新增预览选项
@@ -74,7 +74,7 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 :::
 
 
-::: details CGexeBrowser v2.0.9<Badge type="info" text="更新2" />
+::: details CGexeBrowser v2.1.0<Badge type="info" text="更新2" />
 1. 修复Vray在C4D 2024导入材质端口连接错误的问题
 2. 新增工程打包，用于Vray/ Arnold, 功能和保存工程(包含资源)一样
 :::
