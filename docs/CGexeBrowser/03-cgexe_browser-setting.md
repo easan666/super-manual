@@ -190,6 +190,7 @@ CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以�
 
 ## 开启自由点击模式（单击卡片导入资产）
 开启后单击卡片不是显示预览图弹窗，而是直接导入资产。  
+视频说明： [点击查看](https://www.bilibili.com/video/BV13PQmB2EbQ/?share_source=copy_web&vd_source=46329bbe65b4612ef4b45052f64ddb56&t=9)
 
 <br />
 
