@@ -99,6 +99,18 @@ export const NAV_DATA: NavData[] = [
         desc: '可以将所选材质的纹理路径转换为绝对路径',
         link: './05-RNT-ConvertPath',
       },
+      {
+        icon: '../../img/RS-ObjectIDManager.webp',
+        title: '对象ID管理',
+        desc: '对象ID管理面板，高效管理和设置',
+        link: './04-RNT-AutoID',
+      },
+      {
+        icon: '../../img/RS-MatIDManager.webp',
+        title: '材质ID管理',
+        desc: '材质ID管理面板，高效管理和设置',
+        link: './04-RNT-MatID',
+      },
     ],
   },
 ]

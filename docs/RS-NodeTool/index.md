@@ -8,12 +8,12 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../RS-NodeTool-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.9.3
+# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.9.5
 ## 说明
 RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，独显通道，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动设置材质ID，自动添加PuzzleMatte等等……
 <br />
 <br />
-- 支持版本：`Cinema 4D 2023~2025`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
+- 支持版本：`Cinema 4D 2023和以上版本`（2023需要更新到`2023.2+`，2024需要更新到`2024.1+`）
 - 插件下载地址（付费）：https://cgexe.com/56536/
 - 插件需要登录后才能使用：[登录说明](01-RNT-setting)
 - 首次使用先需要导入插件`assets`文件夹的`NodeTool.zip`节点资产：[导入教程](03-RNT-NodeMenu-demo)
@@ -41,11 +41,16 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.9.3<Badge type="danger" text="更新1+" />
+::: info RS_NodeTool v2.9.5<Badge type="danger" text="更新2+" />
+1. 新增材质ID管理
+2. 新增对象ID管理
+
+:::
+
+::: details RS_NodeTool v2.9.3<Badge type="info" text="更新3+" />
 1. 新增支持OpenPBR材质
 2. 节点菜单新增常用节点图标映射
 3. 优化颜色通道识别逻辑
-
 :::
 
 ::: details RS_NodeTool v2.9.2<Badge type="info" text="更新1+" />
