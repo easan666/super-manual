@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.2.0
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.3.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,7 +64,19 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.2.0<Badge type="danger" text="更新6+" />
+::: info CGexeBrowser v2.3.0<Badge type="danger" text="更新7+" />
+1. 重构缓存逻辑，实现缓存轻量化
+2. 优化预览图显示方式，避免在部分情况下不显示
+3. 优化资产导入方式，实现多线程导入，避免C4D界面冻结
+4. 新增导入进度提示
+5. 优化网盘挂载预览显示，实现webp预览缓存
+6. 限制历史记录数量为200，避免过多查询导致卡顿
+7. 修复导入后在特殊情况高亮不显示的bug
+
+:::
+
+
+::: details CGexeBrowser v2.1.0<Badge type="info" text="更新5" />
 1. 优化octane中hdr导入的方式，如果有调节节点会自动替换纹理节点而不是新增
 2. 新增导入资产高亮显示
 3. 右键菜单新增预览选项
@@ -72,7 +84,6 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 5. 新增自由点击模式，开启后单击卡片即可导入资产
 6. 新增历史记录，左侧菜单下方会显示导入的历史资产
 :::
-
 
 ::: details CGexeBrowser v2.1.0<Badge type="info" text="更新2" />
 1. 修复Vray在C4D 2024导入材质端口连接错误的问题

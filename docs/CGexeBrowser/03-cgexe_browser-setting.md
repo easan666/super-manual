@@ -194,6 +194,15 @@ CGexeBrowser发送PBR贴图自动连接依赖文件名中的关键词，可以�
 
 <br />
 
+## 开启网盘预览图缓存下载
+开启之后会将网盘挂载的预览图转为webp格式缓存到临时文件夹的preview_cache文件夹。缓存过的预览因为在本地所以下次打开的速度会快很多，这样就算网速比较差，也可以快速看到预览。  
+
+也可以提前将缓存放到preview_cache文件夹  
+
+视频说明： [点击查看](https://www.bilibili.com/video/BV1DF9vBmEQY/?share_source=copy_web&vd_source=46329bbe65b4612ef4b45052f64ddb56&t=37)
+
+<br />
+
 
 ## 资产文件夹路径
 插件启动必须先设置资产文件夹，不然会无法启动。如果修改了路径需要[重启/初始化](02-cgexe_browser-initialize)。
