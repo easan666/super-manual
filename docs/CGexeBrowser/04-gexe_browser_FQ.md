@@ -82,3 +82,31 @@ layout: doc
 <br />
 <br />
 
+
+### 7. 无法访问此页面
+
+<br />
+
+<img src="/cgexe_browser/unable_to_access_page_Errors.webp" data-zoomable alt="WebView2_Errors" width=50% >
+
+<br />
+
+1. 先打开`CGexeBrowser`插件的`browser`文件夹，看看`CGexeBrowser.exe`是否存在，如果不存在说明被杀毒软件误杀
+
+::: info 解决办法
+重新下载插件，然后杀毒软件添加CGexeBrowser.exe为信任
+:::
+
+<br />
+
+2. 如果`CGexeBrowser.exe`存在，那就是防火墙的问题
+
+::: info 解决办法
+第一种：直接关闭防火墙，在电脑搜索`Windows Defender 防火墙`，点击左侧`启用或关闭 Windows Defender 防火墙`，勾选`关闭`并确定。‌‌‌  
+
+第二种：杀毒软件添加CGexeBrowser.exe为信任
+:::
+
+
+<br />
+<br />
