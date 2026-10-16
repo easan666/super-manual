@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.3.4
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.3.6
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
@@ -64,9 +64,18 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.3.4<Badge type="danger" text="更新1+" />
-1. 修复C4D 2023中RS 3.5.24的问题
+::: info CGexeBrowser v2.3.6<Badge type="danger" text="更新2+" />
+1. 更新适配Cinema 4D 2027
+2. 优化导入材质参数的设置
+:::
 
+
+::: details CGexeBrowser v2.3.5<Badge type="info" text="更新1" />
+1. 修复v2.3.4中C4D没有redshift渲染器就无法导入的bug
+:::
+
+::: details CGexeBrowser v2.3.4<Badge type="info" text="更新1" />
+1. 修复C4D 2023中RS 3.5.24的问题
 :::
 
 ::: details CGexeBrowser v2.3.3<Badge type="info" text="更新1" />
