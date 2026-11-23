@@ -8,11 +8,11 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../CGexeBrowser-data'
 </script>
 
-# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v2.3.6
+# <span class="h1-icon"><img src="/cgexe_browser/CGexeBrowser.webp" alt="Custom Icon"></span>CGexeBrowser v3.0.0
 
 ## 说明
 CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘挂载文件**，支持**六大主流渲染器**。  
-可以在线使用资产文件，一键导入Megascans、GSG、sbsar文件（Substance材质）、Kitbash3D等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
+可以在线使用资产文件，一键导入Max/Blender、Megascans、GSG、sbsar文件（Substance材质）、Kitbash3D等常用资产，支持自动导入模型/工程，PBR套图，HDR贴图，灯光贴图，纹理贴图，可以自动裁剪贴图尺寸，智能筛选Lod等……  
 
 <br />
 
@@ -64,7 +64,20 @@ CGexeBrowser是Cinema 4D资产管理和智能导入插件，支持**各种网盘
 ## 更新说明
 
 
-::: info CGexeBrowser v2.3.6<Badge type="danger" text="更新2+" />
+::: info CGexeBrowser v3.0.0<Badge type="danger" text="更新10+" />
+1. 修复网盘挂载模型无法裁剪尺寸的bug
+2. 优化临时目录资产结构
+3. 优化浏览器卡片显示算法
+4. 优化扫描数据库进度条显示方式
+5. 新增显示网盘挂载已下载显示
+6. 新增右键删除/清空历史记录
+7. 新增鼠标悬停显示卡片名称
+8. 新增支持多开C4D导入资产
+9. 新增max/blend格式导入，支持硬解和调用软件导入
+10. 新增浏览器设置，支持设置卡片尺寸，字体大小和中英切换
+:::
+
+::: details CGexeBrowser v2.3.6<Badge type="info" text="更新2" />
 1. 更新适配Cinema 4D 2027
 2. 优化导入材质参数的设置
 :::
